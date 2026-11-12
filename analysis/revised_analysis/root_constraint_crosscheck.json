@@ -1,0 +1,80 @@
+{
+  "verified": true,
+  "rawFilesHashChecked": 360,
+  "rows": 360,
+  "conditions": [
+    {
+      "scenario": 101,
+      "method": "LSHADE",
+      "verticalSuccess": 0,
+      "euclideanSuccess": 30,
+      "mcnemarP": 1.862645149230957e-09,
+      "medianDeltaJ": 0.005248565980922049,
+      "medianRelativeDeltaJPercent": 1.2851017134140617,
+      "medianDeltaLength": 5.138375224791844,
+      "minimumSpatialLower": 8.0,
+      "maximumSpatialUpper": 8.000000077418754
+    },
+    {
+      "scenario": 101,
+      "method": "PSO_Standard",
+      "verticalSuccess": 0,
+      "euclideanSuccess": 30,
+      "mcnemarP": 1.862645149230957e-09,
+      "medianDeltaJ": 0.005670859926364957,
+      "medianRelativeDeltaJPercent": 1.3873870124886236,
+      "medianDeltaLength": 6.3658596448513265,
+      "minimumSpatialLower": 8.000000147017099,
+      "maximumSpatialUpper": 8.001994592174896
+    },
+    {
+      "scenario": 102,
+      "method": "LSHADE",
+      "verticalSuccess": 30,
+      "euclideanSuccess": 30,
+      "mcnemarP": 1.0,
+      "medianDeltaJ": 0.0,
+      "medianRelativeDeltaJPercent": 0.0,
+      "medianDeltaLength": -4.4131184040452354e-08,
+      "minimumSpatialLower": 9.811512136457171,
+      "maximumSpatialUpper": 9.81159191762893
+    },
+    {
+      "scenario": 102,
+      "method": "PSO_Standard",
+      "verticalSuccess": 30,
+      "euclideanSuccess": 30,
+      "mcnemarP": 1.0,
+      "medianDeltaJ": 0.0005983606572234068,
+      "medianRelativeDeltaJPercent": 0.11935365686862029,
+      "medianDeltaLength": -0.25922545254198326,
+      "minimumSpatialLower": 8.241772232452098,
+      "maximumSpatialUpper": 9.81159191762893
+    },
+    {
+      "scenario": 103,
+      "method": "LSHADE",
+      "verticalSuccess": 30,
+      "euclideanSuccess": 30,
+      "mcnemarP": 1.0,
+      "medianDeltaJ": -0.0007377295289485997,
+      "medianRelativeDeltaJPercent": -0.15766400544247483,
+      "medianDeltaLength": -0.7966821484557158,
+      "minimumSpatialLower": 8.000000000000169,
+      "maximumSpatialUpper": 8.627823941894453
+    },
+    {
+      "scenario": 103,
+      "method": "PSO_Standard",
+      "verticalSuccess": 5,
+      "euclideanSuccess": 30,
+      "mcnemarP": 5.960464477539063e-08,
+      "medianDeltaJ": 3.4700539041448986e-05,
+      "medianRelativeDeltaJPercent": 0.007153943407965756,
+      "medianDeltaLength": 0.6261827951073826,
+      "minimumSpatialLower": 8.000000018265805,
+      "maximumSpatialUpper": 8.62782363604615
+    }
+  ],
+  "scope": "Independent root recomputation of matched runs, McNemar tests, cost and length differences, and distance extremes from final verified records."
+}

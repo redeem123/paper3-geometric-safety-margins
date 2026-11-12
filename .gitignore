@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+analysis/recomputed_*/
+analysis/*_reanalysis_report.json

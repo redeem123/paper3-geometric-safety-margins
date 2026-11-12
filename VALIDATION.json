@@ -1,0 +1,224 @@
+{
+  "verified": true,
+  "cohorts": {
+    "original": 630,
+    "endpoint": 1260,
+    "constraint": 360,
+    "sensitivity": 540
+  },
+  "archives": {
+    "PAPER3_COMPLETE_ANALYSIS.zip": "9431208c19dc0509b7f85bbdffc6412a21777d3617dd613ed752a9ee7bb32532",
+    "PAPER3_OPTIMIZER_REPLAY.zip": "08c984aaae5c4606ce8f4dca83d94cc655053a727db968ec8be8125b067305df"
+  },
+  "validation": {
+    "verified": true,
+    "originalRoutes": 630,
+    "additionalRoutes": 2160,
+    "archives": {
+      "PAPER3_COMPLETE_ANALYSIS.zip": "9431208c19dc0509b7f85bbdffc6412a21777d3617dd613ed752a9ee7bb32532",
+      "PAPER3_OPTIMIZER_REPLAY.zip": "08c984aaae5c4606ce8f4dca83d94cc655053a727db968ec8be8125b067305df"
+    },
+    "originalReanalysis": {
+      "routes": 630,
+      "mean_median_groups": 21,
+      "adjusted_score_tests": 18,
+      "thresholds": [
+        6,
+        7,
+        8
+      ],
+      "counts_by_map": {
+        "101": [
+          208,
+          210,
+          210
+        ],
+        "102": [
+          1,
+          2,
+          5
+        ],
+        "103": [
+          43,
+          83,
+          135
+        ]
+      },
+      "endpoint_minima_by_map": {
+        "101": 178,
+        "102": 202,
+        "103": 209
+      },
+      "reversal_quantiles_percent": [
+        2.44,
+        6.83,
+        11.44,
+        28.56,
+        47.0
+      ],
+      "figure2b": {
+        "vertical_at_route_point": 21.027540574063714,
+        "lower": 0.845787631363033,
+        "upper": 0.8463035334287992
+      },
+      "euclidean_recomputation": "example"
+    },
+    "additionalReanalysis": {
+      "verified": true,
+      "additional": {
+        "endpoint": {
+          "routes": 1260,
+          "verticallyFeasible": 1260,
+          "belowSpatial": null,
+          "bothMargins": null,
+          "distanceUnresolved": null,
+          "endpointBinding": 636
+        },
+        "constraint": {
+          "routes": 360,
+          "verticallyFeasible": 360,
+          "belowSpatial": 85,
+          "bothMargins": 275,
+          "distanceUnresolved": 0,
+          "endpointBinding": null,
+          "euclideanArmIntervals": {
+            "nativePostHocTolerance": 1e-05,
+            "thresholdRefinementTolerance": 1e-07,
+            "conditions": [
+              {
+                "map": 101,
+                "method": "PSO_Standard",
+                "nativePostHocUnresolved": 10,
+                "nativeSearchConfirmed": 30,
+                "independentUnresolved": 0
+              },
+              {
+                "map": 101,
+                "method": "LSHADE",
+                "nativePostHocUnresolved": 30,
+                "nativeSearchConfirmed": 30,
+                "independentUnresolved": 0
+              },
+              {
+                "map": 102,
+                "method": "PSO_Standard",
+                "nativePostHocUnresolved": 0,
+                "nativeSearchConfirmed": 30,
+                "independentUnresolved": 0
+              },
+              {
+                "map": 102,
+                "method": "LSHADE",
+                "nativePostHocUnresolved": 0,
+                "nativeSearchConfirmed": 30,
+                "independentUnresolved": 0
+              },
+              {
+                "map": 103,
+                "method": "PSO_Standard",
+                "nativePostHocUnresolved": 13,
+                "nativeSearchConfirmed": 30,
+                "independentUnresolved": 0
+              },
+              {
+                "map": 103,
+                "method": "LSHADE",
+                "nativePostHocUnresolved": 1,
+                "nativeSearchConfirmed": 30,
+                "independentUnresolved": 0
+              }
+            ]
+          }
+        },
+        "sensitivity": {
+          "routes": 540,
+          "verticallyFeasible": 540,
+          "belowSpatial": 312,
+          "bothMargins": 228,
+          "distanceUnresolved": 0,
+          "endpointBinding": null,
+          "verifiedExistenceWitnesses": 22,
+          "endpointExcludedConfigurations": [
+            407,
+            408,
+            425,
+            426,
+            427
+          ],
+          "unavoidableEndpointBreaches": 100,
+          "endpointAdmissibleRoutes": 440,
+          "belowSpatialWithAdmissibleEndpoints": 212
+        }
+      },
+      "independentlyRecomputedEuclideanDistances": 66,
+      "initialPopulationPairs": 180,
+      "endpointFisherHolmContrasts": 21,
+      "pairedMcNemarHolmContrasts": 6,
+      "pairedBootstrapSummaries": true,
+      "sensitivityConditions": 54
+    },
+    "matchingDerivedFiles": [
+      "geometry_profiles.csv",
+      "summary.json",
+      "rescore_weights.csv",
+      "reversal_materiality.csv",
+      "endpoint_distances.csv",
+      "reversal_examples.csv",
+      "all_pair_tests.csv",
+      "cdf_intervals.csv",
+      "surface_alternatives.csv",
+      "spatial_profiles_resolution.json",
+      "analytic_geometry_tests.json"
+    ],
+    "modelReplayChecks": [
+      {
+        "method": "AFSACPSO",
+        "exactPath": true,
+        "exactScore": true,
+        "scope": "800-evaluation loading and integration smoke; no new primary result"
+      },
+      {
+        "method": "SAC_SAPSO",
+        "exactPath": true,
+        "exactScore": true,
+        "scope": "800-evaluation loading and integration smoke; no new primary result"
+      },
+      {
+        "method": "RLAM_PSO",
+        "exactPath": true,
+        "exactScore": true,
+        "scope": "800-evaluation loading and integration smoke; no new primary result"
+      },
+      {
+        "method": "GLEET",
+        "exactPath": true,
+        "exactScore": true,
+        "scope": "800-evaluation loading and integration smoke; no new primary result"
+      }
+    ],
+    "cohortReplayChecks": [
+      {
+        "cohort": "endpoint",
+        "exactPath": true,
+        "exactScore": true
+      },
+      {
+        "cohort": "constraint",
+        "exactPath": true,
+        "exactScore": true
+      },
+      {
+        "cohort": "sensitivity",
+        "exactPath": true,
+        "exactScore": true
+      },
+      {
+        "cohort": "original",
+        "stage": "gate",
+        "exactPath": true,
+        "exactScore": true
+      }
+    ]
+  },
+  "scope": "Saved-route analyses and bounded replay checks; fixed seeds do not establish cross-platform bitwise reproducibility."
+}

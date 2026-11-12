@@ -1,0 +1,48 @@
+{
+  "verified": true,
+  "methods": [
+    {
+      "method": "AFSACPSO",
+      "checkpointSHA256": "56c179cb1b90d737f18579c396636bf453102f5a9a35bb96dfa3ffb407246937",
+      "logSHA256": "7ecf46ecc56a8ca0bc6a696b5a68565282a672c0aa1a7720059c6ca36b1425da",
+      "sameTimestamp": "Wed Mar 18 14:35:13 2026",
+      "recordedScalars": {
+        "D": 30.0,
+        "numEpisodes": 5000.0,
+        "popSize": 100.0,
+        "maxIter": 1000.0,
+        "totalTime": 11337.171850625,
+        "totalCpuTime": 29355.02
+      }
+    },
+    {
+      "method": "SAC-SAPSO",
+      "checkpointSHA256": "9bcee8d12f65f05b1220d5794ec79f9e38d01cc85160d19c31028258dcebc562",
+      "logSHA256": "c7e084911208ff424a7d95251fb889039935539e20092afa7c1c1c408729a3f8",
+      "sameTimestamp": "Wed Mar 18 14:43:50 2026",
+      "recordedScalars": {
+        "D": 30.0,
+        "numEpisodes": 5000.0,
+        "popSize": 100.0,
+        "maxIter": 1000.0,
+        "totalTime": 11848.174938916667,
+        "totalCpuTime": 32219.44
+      }
+    },
+    {
+      "method": "RLAM-PSO",
+      "checkpointSHA256": "51e02a5d9096a33136f4f65afee155a10de3130597d0b43c316063c820cf4920",
+      "logSHA256": "9c2ac5a28f38a6f968cf895760f423b260f0bd3c74800ffb0d7ec87c336b4ebf",
+      "sameTimestamp": "Wed Mar 18 17:05:44 2026",
+      "recordedScalars": {
+        "D": 30.0,
+        "numEpisodes": 5000.0,
+        "popSize": 100.0,
+        "maxIter": 1000.0,
+        "totalTime": 20363.180847708332,
+        "totalCpuTime": 57293.89
+      }
+    }
+  ],
+  "scope": "Root independently rechecked four checkpoint hashes, accepted catalog matches for three inherited policies, companion log hashes, matching MAT headers, and recorded scalar training metadata. Source timing uncertainty remains disclosed in policy_provenance_recovery.json."
+}

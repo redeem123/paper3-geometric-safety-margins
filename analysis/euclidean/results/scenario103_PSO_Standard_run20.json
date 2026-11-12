@@ -1,0 +1,32 @@
+{
+  "lower": 6.69615356554973,
+  "upper": 6.6968951047400544,
+  "gap": 0.0007415391903240476,
+  "converged": true,
+  "pops": 328,
+  "pathPoint": [
+    98.47628451226393,
+    61.4690129617134,
+    103.6867132813052
+  ],
+  "surfacePoint": [
+    104.12451424812555,
+    58.291457286432156,
+    101.99880190569509
+  ],
+  "segment": 2,
+  "segmentFraction": 0.7659022615470933,
+  "tolerance": 0.001,
+  "numericalAllowance": 1e-09,
+  "identity": "d254770d6130c08922f9b846008fa69e4a88ec40f8d0fd23fc1d3ac9eba243bf",
+  "scenario": 103,
+  "method": "PSO_Standard",
+  "run": 20,
+  "rawSHA256": "25d04f650a37a1ac79fc6c9f948f3aa379957465246cf28d4c28b02fae390528",
+  "verticalMinimum": 8.90993909078512,
+  "classification": "below8",
+  "seconds": 1.3534234170801938,
+  "routeMembershipResidual": 7.105427357601002e-15,
+  "surfaceMembershipResidual": 1.4210854715202004e-14,
+  "completedUTC": "2026-11-12T04:14:04.060798+00:00"
+}

@@ -1,0 +1,468 @@
+{
+  "name": "endpoint-clearance-paired-geometry-v1",
+  "createdUTC": "2026-11-12T00:36:54.048900+00:00",
+  "description": "Prospectively selected opposite-diagonal mission with paired endpoint-clearance levels on each existing map.",
+  "endpointXYRule": "start=(0,200), goal=(200,0) on all three maps",
+  "endpointAltitudeRule": "ground height at each endpoint plus 9 (near) or 20 (high) model units",
+  "designScope": "Within each map the horizontal geometry and endpoint-to-endpoint distance match across the two new levels. Elevation and feasibility conditions both change; the comparison does not isolate a single objective term or generalize across all missions.",
+  "cases": [
+    {
+      "caseId": 201,
+      "mapId": 101,
+      "condition": "near",
+      "targetEndpointClearance": 9.0,
+      "start": [
+        0.0,
+        200.0,
+        10.472860372452143
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        10.472860372452143
+      ],
+      "groundStart": 1.4728603724521432,
+      "groundGoal": 1.4728603724521432,
+      "mapSize": [
+        200,
+        200,
+        120
+      ],
+      "witnessPath": [
+        [
+          0.0,
+          200.0,
+          10.472860372452143
+        ],
+        [
+          0.0,
+          200.0,
+          58.0
+        ],
+        [
+          50.0,
+          150.0,
+          58.0
+        ],
+        [
+          100.0,
+          100.0,
+          58.0
+        ],
+        [
+          150.0,
+          50.0,
+          58.0
+        ],
+        [
+          200.0,
+          0.0,
+          58.0
+        ],
+        [
+          200.0,
+          0.0,
+          10.472860372452143
+        ]
+      ],
+      "witnessMinimumClearance": 9.0,
+      "environmentRecord": "paper3/production_v2_20261111/results/primary/scenario101/scenario101_AFSACPSO_run1.mat",
+      "environmentRecordSha256": "f83373c07b991eea3bb6a832761f7fb5cb761e2002da5a45098ce9b99033d7ee",
+      "terrainGridSha256": "293eb36b3795d299da56f184a3f4e9291148a37793c450ebd1ec385add43941f",
+      "frozenSourceHash": "a579214e32706c71bd731a81302ad89427d968ef50ee5a0b9e3101333ba4a9d7"
+    },
+    {
+      "caseId": 202,
+      "mapId": 101,
+      "condition": "high",
+      "targetEndpointClearance": 20.0,
+      "start": [
+        0.0,
+        200.0,
+        21.472860372452143
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        21.472860372452143
+      ],
+      "groundStart": 1.4728603724521432,
+      "groundGoal": 1.4728603724521432,
+      "mapSize": [
+        200,
+        200,
+        120
+      ],
+      "witnessPath": [
+        [
+          0.0,
+          200.0,
+          21.472860372452143
+        ],
+        [
+          0.0,
+          200.0,
+          58.0
+        ],
+        [
+          50.0,
+          150.0,
+          58.0
+        ],
+        [
+          100.0,
+          100.0,
+          58.0
+        ],
+        [
+          150.0,
+          50.0,
+          58.0
+        ],
+        [
+          200.0,
+          0.0,
+          58.0
+        ],
+        [
+          200.0,
+          0.0,
+          21.472860372452143
+        ]
+      ],
+      "witnessMinimumClearance": 19.880519246396595,
+      "environmentRecord": "paper3/production_v2_20261111/results/primary/scenario101/scenario101_AFSACPSO_run1.mat",
+      "environmentRecordSha256": "f83373c07b991eea3bb6a832761f7fb5cb761e2002da5a45098ce9b99033d7ee",
+      "terrainGridSha256": "293eb36b3795d299da56f184a3f4e9291148a37793c450ebd1ec385add43941f",
+      "frozenSourceHash": "a579214e32706c71bd731a81302ad89427d968ef50ee5a0b9e3101333ba4a9d7"
+    },
+    {
+      "caseId": 203,
+      "mapId": 102,
+      "condition": "near",
+      "targetEndpointClearance": 9.0,
+      "start": [
+        0.0,
+        200.0,
+        14.437400003807234
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        14.437400003807234
+      ],
+      "groundStart": 5.437400003807234,
+      "groundGoal": 5.437400003807234,
+      "mapSize": [
+        200,
+        200,
+        50
+      ],
+      "witnessPath": [
+        [
+          0.0,
+          200.0,
+          14.437400003807234
+        ],
+        [
+          0.0,
+          200.0,
+          30.0
+        ],
+        [
+          50.0,
+          150.0,
+          30.0
+        ],
+        [
+          100.0,
+          100.0,
+          30.0
+        ],
+        [
+          150.0,
+          50.0,
+          30.0
+        ],
+        [
+          200.0,
+          0.0,
+          30.0
+        ],
+        [
+          200.0,
+          0.0,
+          14.437400003807234
+        ]
+      ],
+      "witnessMinimumClearance": 9.0,
+      "environmentRecord": "paper3/production_v2_20261111/results/primary/scenario102/scenario102_AFSACPSO_run1.mat",
+      "environmentRecordSha256": "9ac1f49e3d395c81b709f08c1375b778049afdc445278566a3ac3284c8170a08",
+      "terrainGridSha256": "bad3869998674119d79f2629f77593fdbb6755c076b117bd96f4391e20c15e80",
+      "frozenSourceHash": "a579214e32706c71bd731a81302ad89427d968ef50ee5a0b9e3101333ba4a9d7"
+    },
+    {
+      "caseId": 204,
+      "mapId": 102,
+      "condition": "high",
+      "targetEndpointClearance": 20.0,
+      "start": [
+        0.0,
+        200.0,
+        25.437400003807234
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        25.437400003807234
+      ],
+      "groundStart": 5.437400003807234,
+      "groundGoal": 5.437400003807234,
+      "mapSize": [
+        200,
+        200,
+        50
+      ],
+      "witnessPath": [
+        [
+          0.0,
+          200.0,
+          25.437400003807234
+        ],
+        [
+          0.0,
+          200.0,
+          30.0
+        ],
+        [
+          50.0,
+          150.0,
+          30.0
+        ],
+        [
+          100.0,
+          100.0,
+          30.0
+        ],
+        [
+          150.0,
+          50.0,
+          30.0
+        ],
+        [
+          200.0,
+          0.0,
+          30.0
+        ],
+        [
+          200.0,
+          0.0,
+          25.437400003807234
+        ]
+      ],
+      "witnessMinimumClearance": 19.852544764843344,
+      "environmentRecord": "paper3/production_v2_20261111/results/primary/scenario102/scenario102_AFSACPSO_run1.mat",
+      "environmentRecordSha256": "9ac1f49e3d395c81b709f08c1375b778049afdc445278566a3ac3284c8170a08",
+      "terrainGridSha256": "bad3869998674119d79f2629f77593fdbb6755c076b117bd96f4391e20c15e80",
+      "frozenSourceHash": "a579214e32706c71bd731a81302ad89427d968ef50ee5a0b9e3101333ba4a9d7"
+    },
+    {
+      "caseId": 205,
+      "mapId": 103,
+      "condition": "near",
+      "targetEndpointClearance": 9.0,
+      "start": [
+        0.0,
+        200.0,
+        9.642560194335806
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        9.612253378254714
+      ],
+      "groundStart": 0.6425601943358054,
+      "groundGoal": 0.612253378254713,
+      "mapSize": [
+        200,
+        200,
+        300
+      ],
+      "witnessPath": [
+        [
+          0.0,
+          200.0,
+          9.642560194335806
+        ],
+        [
+          0.0,
+          200.0,
+          130.0
+        ],
+        [
+          50.0,
+          150.0,
+          130.0
+        ],
+        [
+          100.0,
+          100.0,
+          130.0
+        ],
+        [
+          150.0,
+          50.0,
+          130.0
+        ],
+        [
+          200.0,
+          0.0,
+          130.0
+        ],
+        [
+          200.0,
+          0.0,
+          9.612253378254714
+        ]
+      ],
+      "witnessMinimumClearance": 8.999999999999993,
+      "environmentRecord": "paper3/production_v2_20261111/results/primary/scenario103/scenario103_AFSACPSO_run1.mat",
+      "environmentRecordSha256": "95df5699ed9e8263447d7f0c366492959e941bb333c8ae9df43d35df5085fcf6",
+      "terrainGridSha256": "a9dbefc064bca7e405ac8fc6712fa48679e6be533223943dcd87ea68cff8234a",
+      "frozenSourceHash": "a579214e32706c71bd731a81302ad89427d968ef50ee5a0b9e3101333ba4a9d7"
+    },
+    {
+      "caseId": 206,
+      "mapId": 103,
+      "condition": "high",
+      "targetEndpointClearance": 20.0,
+      "start": [
+        0.0,
+        200.0,
+        20.642560194335804
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        20.612253378254714
+      ],
+      "groundStart": 0.6425601943358054,
+      "groundGoal": 0.612253378254713,
+      "mapSize": [
+        200,
+        200,
+        300
+      ],
+      "witnessPath": [
+        [
+          0.0,
+          200.0,
+          20.642560194335804
+        ],
+        [
+          0.0,
+          200.0,
+          130.0
+        ],
+        [
+          50.0,
+          150.0,
+          130.0
+        ],
+        [
+          100.0,
+          100.0,
+          130.0
+        ],
+        [
+          150.0,
+          50.0,
+          130.0
+        ],
+        [
+          200.0,
+          0.0,
+          130.0
+        ],
+        [
+          200.0,
+          0.0,
+          20.612253378254714
+        ]
+      ],
+      "witnessMinimumClearance": 19.999999999999993,
+      "environmentRecord": "paper3/production_v2_20261111/results/primary/scenario103/scenario103_AFSACPSO_run1.mat",
+      "environmentRecordSha256": "95df5699ed9e8263447d7f0c366492959e941bb333c8ae9df43d35df5085fcf6",
+      "terrainGridSha256": "a9dbefc064bca7e405ac8fc6712fa48679e6be533223943dcd87ea68cff8234a",
+      "frozenSourceHash": "a579214e32706c71bd731a81302ad89427d968ef50ee5a0b9e3101333ba4a9d7"
+    }
+  ],
+  "methods": [
+    "AFSACPSO",
+    "PSO_Standard",
+    "SAEPSO",
+    "SAC_SAPSO",
+    "RLAM_PSO",
+    "LSHADE",
+    "GLEET"
+  ],
+  "feasibilityWitnessRole": "offline geometric witness only; never supplied to a method",
+  "gate": {
+    "runIds": [
+      91
+    ],
+    "searchEvaluations": 20300,
+    "expectedRuns": 42
+  },
+  "primary": {
+    "runIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "searchEvaluations": 100100,
+    "expectedRuns": 1260
+  },
+  "seedRule": "1000000 + (caseId - 201)*100000 + runId*10 + methodIndex (one-based)",
+  "frozenSourceManifestSha256": "e3ccaad926d9f9f37f73adeee1c44e0e50bad74d7bf7173e605e1bf8afd710ed",
+  "oldProductionProtocol": "production_v2_20261111/PROTOCOL.md",
+  "clearanceThreshold": 8,
+  "endpointBindingTolerance": 1e-08,
+  "analysis": "Per case and method: feasibility, conditional median/IQR objective, proportion of feasible paths attaining the endpoint-imposed clearance bound, and arc-length harmonic clearance. Compare near versus high by map and method using independent-sample Fisher exact tests of endpoint binding conditional on feasibility; Holm-correct the 21 comparisons as an exploratory family, and retain denominators. Qualify conditioning if feasibility differs. Compare methods within each condition; do not interpret the difference in raw J across endpoint levels as an isolated safety or objective effect. Pilot data excluded from primary summaries.",
+  "smoke": {
+    "caseId": 201,
+    "runIds": [
+      92
+    ],
+    "searchEvaluations": 800,
+    "expectedRuns": 7,
+    "excludedFromPrimary": true
+  }
+}

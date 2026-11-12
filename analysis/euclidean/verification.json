@@ -1,0 +1,94 @@
+{
+  "verified": true,
+  "routes": 630,
+  "converged": 630,
+  "below8": 350,
+  "unresolved": 0,
+  "maxPathMembershipResidual": 4.081757258616412e-14,
+  "maxSurfaceMembershipResidual": 4.902744876744691e-13,
+  "independentOriginalCellChecks": [
+    {
+      "scenario": 101,
+      "method": "SAC_SAPSO",
+      "run": 6,
+      "lower": 0.3068477720105255,
+      "upper": 0.30762248392683345,
+      "independentLocalDistance": 0.307622482926833,
+      "minimizations": 48
+    },
+    {
+      "scenario": 101,
+      "method": "RLAM_PSO",
+      "run": 6,
+      "lower": 0.8336906773300853,
+      "upper": 0.8341519067010249,
+      "independentLocalDistance": 0.8341519057010358,
+      "minimizations": 48
+    },
+    {
+      "scenario": 101,
+      "method": "SAC_SAPSO",
+      "run": 22,
+      "lower": 6.93586690416228,
+      "upper": 6.936240292519895,
+      "independentLocalDistance": 6.936240291519895,
+      "minimizations": 48
+    },
+    {
+      "scenario": 102,
+      "method": "SAC_SAPSO",
+      "run": 7,
+      "lower": 5.724589158584494,
+      "upper": 5.725128747364521,
+      "independentLocalDistance": 5.725128746364518,
+      "minimizations": 48
+    },
+    {
+      "scenario": 102,
+      "method": "LSHADE",
+      "run": 8,
+      "lower": 9.811327678735381,
+      "upper": 9.81159367799707,
+      "independentLocalDistance": 9.811591803922534,
+      "minimizations": 12
+    },
+    {
+      "scenario": 102,
+      "method": "SAC_SAPSO",
+      "run": 17,
+      "lower": 8.005967258631895,
+      "upper": 8.006506847411922,
+      "independentLocalDistance": 8.006506846411927,
+      "minimizations": 48
+    },
+    {
+      "scenario": 103,
+      "method": "RLAM_PSO",
+      "run": 30,
+      "lower": 2.9410681568310615,
+      "upper": 2.9419831919380273,
+      "independentLocalDistance": 2.941983190938035,
+      "minimizations": 48
+    },
+    {
+      "scenario": 103,
+      "method": "GLEET",
+      "run": 4,
+      "lower": 7.413435607799157,
+      "upper": 7.41424441525919,
+      "independentLocalDistance": 7.414244414259192,
+      "minimizations": 48
+    },
+    {
+      "scenario": 103,
+      "method": "GLEET",
+      "run": 30,
+      "lower": 7.981774178672736,
+      "upper": 7.982628157752043,
+      "independentLocalDistance": 7.982628156752035,
+      "minimizations": 48
+    }
+  ],
+  "testSourceSHA256": "81cc5ed821884e9daef0522809e491972761ae8bbbf41af66667fb90c266c320",
+  "limits": "Independent minimizations check selected original cells, not an independent proof of the global lower bound. All630 witnesses, memberships, hashes and convergence intervals checked separately."
+}

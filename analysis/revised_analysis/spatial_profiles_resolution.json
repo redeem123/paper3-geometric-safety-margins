@@ -1,0 +1,653 @@
+[
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "AFSACPSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 0.8462712792371891,
+    "upper": 0.8463035334287992
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "GLEET",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 0.6991106048287602,
+    "upper": 0.6991463040404988
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "LSHADE",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 0.6933582401408184,
+    "upper": 0.6934512503934105
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "PSO_Standard",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 0.6933623735605939,
+    "upper": 0.6934555763677264
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "RLAM_PSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 2.1803649685570603,
+    "upper": 2.1804318299057224
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "SAC_SAPSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 2.0473049996827584,
+    "upper": 2.0473050106827553
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "SAEPSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 1.7749395427320205,
+    "upper": 1.7749717969236305
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "AFSACPSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 28.173362680630223,
+    "lower": 2.189203661350033,
+    "upper": 2.1892604374708617
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "GLEET",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 28.173362680630223,
+    "lower": 2.104036850829415,
+    "upper": 2.1041199911074533
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "LSHADE",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 28.173362680630223,
+    "lower": 2.0981835909127917,
+    "upper": 2.0982494800329508
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "PSO_Standard",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 28.173362680630223,
+    "lower": 2.098192225041366,
+    "upper": 2.0982584507459894
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "RLAM_PSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 28.173362680630223,
+    "lower": 2.0517522082755915,
+    "upper": 2.051841595100049
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "SAC_SAPSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 28.173362680630223,
+    "lower": 2.6117079006857713,
+    "upper": 2.6117934170055435
+  },
+  {
+    "kind": "resolution",
+    "scenario": 101,
+    "method": "SAEPSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 28.173362680630223,
+    "lower": 2.725881537831673,
+    "upper": 2.725938313952502
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 101,
+    "method": "AFSACPSO",
+    "run": 1,
+    "lower": 0.3091680507890058,
+    "upper": 0.3101270380924272,
+    "pointQueries": 788
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 101,
+    "method": "GLEET",
+    "run": 1,
+    "lower": 0.3493289560661097,
+    "upper": 0.35030911911394197,
+    "pointQueries": 774
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 101,
+    "method": "LSHADE",
+    "run": 1,
+    "lower": 0.34652825515098873,
+    "upper": 0.347526897094072,
+    "pointQueries": 786
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 101,
+    "method": "PSO_Standard",
+    "run": 1,
+    "lower": 0.3465437189332601,
+    "upper": 0.34754237532706334,
+    "pointQueries": 790
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 101,
+    "method": "RLAM_PSO",
+    "run": 1,
+    "lower": 0.174606308684171,
+    "upper": 0.17552356684945863,
+    "pointQueries": 278
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 101,
+    "method": "SAC_SAPSO",
+    "run": 1,
+    "lower": 0.1882837754296002,
+    "upper": 0.18924942691615199,
+    "pointQueries": 206
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 101,
+    "method": "SAEPSO",
+    "run": 1,
+    "lower": 0.3414709399627875,
+    "upper": 0.3424425668313626,
+    "pointQueries": 582
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "AFSACPSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "GLEET",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "LSHADE",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "PSO_Standard",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "RLAM_PSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 9.705629876215168,
+    "upper": 9.705709220827222
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "SAC_SAPSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "SAEPSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "AFSACPSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 6.4758529604672415,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "GLEET",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 6.4758529604672415,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "LSHADE",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 6.4758529604672415,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "PSO_Standard",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 6.4758529604672415,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "RLAM_PSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 6.4758529604672415,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "SAC_SAPSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 6.4758529604672415,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "resolution",
+    "scenario": 102,
+    "method": "SAEPSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 6.4758529604672415,
+    "lower": 9.811512136457171,
+    "upper": 9.81159191762893
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 102,
+    "method": "AFSACPSO",
+    "run": 1,
+    "lower": 0,
+    "upper": 1e-12,
+    "pointQueries": 58
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 102,
+    "method": "GLEET",
+    "run": 1,
+    "lower": 0,
+    "upper": 1.000076799096095e-12,
+    "pointQueries": 56
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 102,
+    "method": "LSHADE",
+    "run": 1,
+    "lower": 0,
+    "upper": 1.0000552956374246e-12,
+    "pointQueries": 56
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 102,
+    "method": "PSO_Standard",
+    "run": 1,
+    "lower": 0,
+    "upper": 1e-12,
+    "pointQueries": 58
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 102,
+    "method": "RLAM_PSO",
+    "run": 1,
+    "lower": 0,
+    "upper": 1e-12,
+    "pointQueries": 58
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 102,
+    "method": "SAC_SAPSO",
+    "run": 1,
+    "lower": 0,
+    "upper": 1e-12,
+    "pointQueries": 66
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 102,
+    "method": "SAEPSO",
+    "run": 1,
+    "lower": 0,
+    "upper": 1.0000839512484554e-12,
+    "pointQueries": 52
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "AFSACPSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 7.050381910231367,
+    "upper": 7.050433670749322
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "GLEET",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 4.651999139078846,
+    "upper": 4.652090709019634
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "LSHADE",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 8.159986373294167,
+    "upper": 8.160038565527367
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "PSO_Standard",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 8.627734920535119,
+    "upper": 8.627823690758152
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "RLAM_PSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 7.145428906995878,
+    "upper": 7.145480667513833
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "SAC_SAPSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 5.6787776681100235,
+    "upper": 5.678865570238721
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "SAEPSO",
+    "run": 1,
+    "factor": 2,
+    "grid": 399,
+    "heightError": 0.0,
+    "lower": 7.951121713520763,
+    "upper": 7.951202759063288
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "AFSACPSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 8.096121749734621,
+    "lower": 7.30208025041866,
+    "upper": 7.302137186804739
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "GLEET",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 8.096121749734621,
+    "lower": 4.66757493793922,
+    "upper": 4.667646674551257
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "LSHADE",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 8.096121749734621,
+    "lower": 8.102250511356342,
+    "upper": 8.102309256246226
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "PSO_Standard",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 8.096121749734621,
+    "lower": 8.627748887824346,
+    "upper": 8.627823690758152
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "RLAM_PSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 8.096121749734621,
+    "lower": 7.382471009064032,
+    "upper": 7.382529570272285
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "SAC_SAPSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 8.096121749734621,
+    "lower": 5.723770361682798,
+    "upper": 5.723829106572683
+  },
+  {
+    "kind": "resolution",
+    "scenario": 103,
+    "method": "SAEPSO",
+    "run": 1,
+    "factor": 0.5,
+    "grid": 101,
+    "heightError": 8.096121749734621,
+    "lower": 7.946972481179203,
+    "upper": 7.947068772912774
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 103,
+    "method": "AFSACPSO",
+    "run": 1,
+    "lower": 0.05796384516920327,
+    "upper": 0.05890223867956243,
+    "pointQueries": 266
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 103,
+    "method": "GLEET",
+    "run": 1,
+    "lower": 0.12438837069788845,
+    "upper": 0.1253285340149618,
+    "pointQueries": 238
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 103,
+    "method": "LSHADE",
+    "run": 1,
+    "lower": 0,
+    "upper": 0.0009405264010380647,
+    "pointQueries": 158
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 103,
+    "method": "PSO_Standard",
+    "run": 1,
+    "lower": 0,
+    "upper": 1e-12,
+    "pointQueries": 134
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 103,
+    "method": "RLAM_PSO",
+    "run": 1,
+    "lower": 0.05991910192195314,
+    "upper": 0.06091820334638203,
+    "pointQueries": 936
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 103,
+    "method": "SAC_SAPSO",
+    "run": 1,
+    "lower": 0.08739537238708847,
+    "upper": 0.08833787150307763,
+    "pointQueries": 218
+  },
+  {
+    "kind": "spatial_profile",
+    "scenario": 103,
+    "method": "SAEPSO",
+    "run": 1,
+    "lower": 0.009797635911609584,
+    "upper": 0.010781942458152496,
+    "pointQueries": 624
+  }
+]

@@ -1,0 +1,291 @@
+{
+  "scope": "Checkpoint provenance, recorded offline training and deployment adapters. Metadata were inspected without model execution or training. Exact historical training-source and GLEET-history limits are distinguished from verified checkpoint and log identities.",
+  "paper1": {
+    "acceptedPdf": "paper1_accepted/AFSACPSO_Manuscript_Clean.pdf",
+    "sha256": "28356bff094144383cf89d9c1158f915011e9bd0be19c2e0ab76900f30db4b0b",
+    "acceptedSource": "paper1_accepted/source/main.tex:859–873,907–914,931–972",
+    "checkpointCatalog": "paper/production_SWEVO_102599_20261030/catalog_preview/required_checkpoint_hashes.json",
+    "checkpointCatalogSHA256": "94641d31ddd7d7fc809817a9bfae3db5dea19750f7c1a6da77ae8c72d2992bef",
+    "heldOutEvaluator": "paper3/production_v2_20261111/frozen_source/scripts/evaluate_pretrained_heldout_comparison.m:47–91",
+    "heldOutFunctions": [
+      "CrossLegTable",
+      "Lanczos3",
+      "Michalewicz",
+      "Schaffer4",
+      "SineEnvelope",
+      "StretchedVSineWave",
+      "Wavy"
+    ]
+  },
+  "trainingSet": {
+    "source": "paper3/production_v2_20261111/frozen_source/shared/benchmarks/getBenchmarkSplit.m:14–79",
+    "sameFunctionsInAllThreeLogs": [
+      "Ackley1",
+      "Alpine1",
+      "Bohachevsky1",
+      "BonyadiMichalewicz",
+      "Brown",
+      "CosineMixture",
+      "DeflectedCorrugatedSpring",
+      "Discus",
+      "DropWave",
+      "EggCrate",
+      "EggHolder",
+      "Elliptic",
+      "Exponential",
+      "Giunta",
+      "HolderTable1",
+      "Levy3",
+      "LevyMontalvo2",
+      "Mishra1",
+      "Mishra4",
+      "NeedleEye",
+      "Norwegian",
+      "Pathological",
+      "Penalty1",
+      "Penalty2",
+      "Periodic",
+      "Pinter2",
+      "Price2",
+      "Qing",
+      "Quadric",
+      "Quintic",
+      "Rana",
+      "Rastrigin",
+      "Ripple25",
+      "Rosenbrock",
+      "Salomon",
+      "Schubert4",
+      "Schwefel1",
+      "Sinusoidal",
+      "StepFunction3",
+      "Trid",
+      "Trigonometric",
+      "Vincent",
+      "Weierstrass",
+      "XinSheYang1",
+      "XinSheYang2"
+    ],
+    "scope": "The recorded training minimized these 45 synthetic functions with box bounds, without UAV map objectives. The recorded logs store the indices of sampled functions and the last shuffled name list; they do not preserve every permutation. The retained trainers create fresh policies and do not load weights before training. Paper 3 uses the inherited final files directly, without training or checkpoint selection on its missions."
+  },
+  "historicalSource": {
+    "earliestRetainedCommit": "00c7983934b0fa5f485264750dec295e9de11b18",
+    "earliestRetainedCommitDate": "2026-04-15",
+    "timingRevision": "eefe61fe734f7c9a3eac99f45d47df69dd0252e0",
+    "earliestRelativeReward": "00c7983:shared/benchmarks/psoMinimizeBenchmark.m:150–178",
+    "frozenRelativeReward": "paper3/production_v2_20261111/frozen_source/shared/benchmarks/psoMinimizeBenchmark.m:193–201",
+    "scope": "The accepted Paper 1 catalog establishes exact weight identity. Companion HDF5 headers match the checkpoint timestamps. CPU times align closely with Paper 1 Table 6. The RLAM-PSO log is 18.11 CPU seconds below the value implied by 15.92 h in Table 6. The executed March source hash is not recorded. The retained April drivers match the frozen trainer files. The April benchmark loop calculates the AFSACPSO reward from the observation-boundary iteration; the later correction uses adjacent observations."
+  },
+  "methods": {
+    "AFSACPSO": {
+      "checkpoint": "paper3/production_v2_20261111/frozen_source/paper3/darlan_paper1_20261110/models/AFSACPSO/pretrained_sac_attractor.mat",
+      "sha256": "56c179cb1b90d737f18579c396636bf453102f5a9a35bb96dfa3ffb407246937",
+      "bytes": 301839,
+      "matHeaderCreated": "Wed Mar 18 14:35:13 2026",
+      "log": {
+        "path": "models/AFSACPSO/pretrained_sac_attractor_log.mat",
+        "sha256": "7ecf46ecc56a8ca0bc6a696b5a68565282a672c0aa1a7720059c6ca36b1425da",
+        "matHeaderCreated": "Wed Mar 18 14:35:13 2026",
+        "datasets": {
+          "D": 30.0,
+          "numEpisodes": 5000.0,
+          "popSize": 100.0,
+          "maxIter": 1000.0,
+          "totalTime": 11337.171850625,
+          "totalCpuTime": 29355.02
+        },
+        "fitnessHistoryEntries": 5000,
+        "funcAssignmentEntries": 5000,
+        "trainNamesEntries": 45,
+        "fullPasses": 111,
+        "extraEpisodeFunctions": [
+          "Penalty2",
+          "XinSheYang2",
+          "EggCrate",
+          "Periodic",
+          "HolderTable1"
+        ],
+        "acceptedPaper1CpuHours": 8.15
+      },
+      "trainer": "paper3/production_v2_20261111/frozen_source/scripts/pretrain_sac_benchmarks.m:140–193",
+      "trainerSHA256": "b628a75d2fc1d7a772dc657ec36ab7d610606264c61cd065306983d3ca5a5b5a",
+      "checkpointRule": "Periodic saves overwrite the same filename. The trainer writes final weights after the last episode and saves the companion log. Held-out evaluation reads the fixed named files.",
+      "metadata": {
+        "configMeta/stateSize": 15.0,
+        "configMeta/actionSize": 9.0,
+        "logAlphaVal": -7.708395957946777,
+        "obsNorm/count": 0.0,
+        "actorHiddenLayers": [
+          256.0,
+          256.0
+        ],
+        "paramMode": "attractor-field",
+        "obsNorm/meanUnique": [
+          0.0
+        ],
+        "obsNorm/M2Unique": [
+          1.0
+        ]
+      },
+      "commonSACSources": [
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/AFSACPSO_Agent.m:42–111,1066–1074,1255–1316",
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/AFSACPSO_Config.m:36",
+        "paper3/production_v2_20261111/frozen_source/paper3/production_v2_20261111/runProductionMethodV2.m:8–23"
+      ],
+      "reward": "Entropy-regularized SAC with relative best synthetic objective decrease 2*(Fbefore-Fafter)/(abs(Fbefore)+abs(Fafter)+1e-8). See historicalSource for the timing distinction.",
+      "normalization": "Nine engineered swarm features clipped to [0,1]; eight-observation means and successive differences of the first three give six extra inputs, initially zero. No fitted input standardization.",
+      "adapter": "Current UAV score, feasibility and penalty inputs feed the retained encoder. The deterministic tanh actor mean gives nine latent actions, expanded to per-particle coefficients using rank-normalized swarm geometry. Observations every 25 iterations, with legacy action timing and no learning.",
+      "sources": [
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/extractRichFeatures.m:26–127",
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/SimpleStateEncoder.m:37–62,74–84",
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/convertActionToPerParticleParams.m:265–405"
+      ]
+    },
+    "SAC-SAPSO": {
+      "checkpoint": "paper3/production_v2_20261111/frozen_source/paper3/darlan_paper1_20261110/models/AFSACPSO/pretrained_sacpso_paper.mat",
+      "sha256": "9bcee8d12f65f05b1220d5794ec79f9e38d01cc85160d19c31028258dcebc562",
+      "bytes": 372274,
+      "matHeaderCreated": "Wed Mar 18 14:43:50 2026",
+      "log": {
+        "path": "models/AFSACPSO/pretrained_sacpso_paper_log.mat",
+        "sha256": "c7e084911208ff424a7d95251fb889039935539e20092afa7c1c1c408729a3f8",
+        "matHeaderCreated": "Wed Mar 18 14:43:50 2026",
+        "datasets": {
+          "D": 30.0,
+          "numEpisodes": 5000.0,
+          "popSize": 100.0,
+          "maxIter": 1000.0,
+          "totalTime": 11848.174938916667,
+          "totalCpuTime": 32219.44
+        },
+        "fitnessHistoryEntries": 5000,
+        "funcAssignmentEntries": 5000,
+        "trainNamesEntries": 45,
+        "fullPasses": 111,
+        "extraEpisodeFunctions": [
+          "Quadric",
+          "Elliptic",
+          "Quintic",
+          "Discus",
+          "Bohachevsky1"
+        ],
+        "acceptedPaper1CpuHours": 8.95
+      },
+      "trainer": "paper3/production_v2_20261111/frozen_source/scripts/pretrain_sacpso_paper.m:115–167",
+      "trainerSHA256": "2698e6fd80c49db77ffee02051adef0625663c5e5659e9e85770d26afac1bcc4",
+      "checkpointRule": "Periodic saves overwrite the same filename. The trainer writes final weights after the last episode and saves the companion log. Held-out evaluation reads the fixed named files.",
+      "metadata": {
+        "configMeta/stateSize": 103.0,
+        "configMeta/actionSize": 3.0,
+        "logAlphaVal": 1.0,
+        "obsNorm/count": 0.0,
+        "actorHiddenLayers": [
+          256.0,
+          256.0
+        ],
+        "paramMode": "global",
+        "obsNorm/meanUnique": [
+          0.0
+        ],
+        "obsNorm/M2Unique": [
+          1.0
+        ]
+      },
+      "commonSACSources": [
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/AFSACPSO_Agent.m:42–111,1066–1074,1255–1316",
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/AFSACPSO_Config.m:36",
+        "paper3/production_v2_20261111/frozen_source/paper3/production_v2_20261111/runProductionMethodV2.m:8–23"
+      ],
+      "reward": "Entropy-regularized SAC with sign-aware relative incumbent improvement between observations (Eq. 25). Let B=abs(Fbefore)+abs(Fafter). Reward is zero if equal, 2*(Fbefore-Fafter)/(Fbefore+B+1e-30) for two positive values, 2*(Fbefore-Fafter)/(Fbefore+2*B+1e-30) for two negative values, and one otherwise, clipped to [-1,1].",
+      "normalization": "Per particle, tanh(mean(abs(2*(v-(lower+upper)/2)/(upper-lower)))) across decision dimensions, with synthetic bounds for training and [1,mapSize] feature bounds repeated by waypoint for deployment. The other inputs are stable fraction, infeasible fraction and iteration progress. No fitted input standardization.",
+      "adapter": "Current UAV route feasibility feeds the retained 103-state encoder. The deterministic tanh actor mean is affinely mapped to one coefficient triplet for the entire swarm. No rank residual or learning.",
+      "sources": [
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/calculatePaperReward.m:10–32",
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/buildPaperState.m:13–78",
+        "paper3/production_v2_20261111/frozen_source/algorithms/afsacpso/convertActionToPerParticleParams.m:85–97"
+      ]
+    },
+    "RLAM-PSO": {
+      "checkpoint": "paper3/production_v2_20261111/frozen_source/paper3/darlan_paper1_20261110/models/rlampso/pretrained_rlampso.mat",
+      "sha256": "51e02a5d9096a33136f4f65afee155a10de3130597d0b43c316063c820cf4920",
+      "bytes": 224720148,
+      "matHeaderCreated": "Wed Mar 18 17:05:44 2026",
+      "log": {
+        "path": "models/rlampso/pretrained_rlampso_log.mat",
+        "sha256": "9c2ac5a28f38a6f968cf895760f423b260f0bd3c74800ffb0d7ec87c336b4ebf",
+        "matHeaderCreated": "Wed Mar 18 17:05:44 2026",
+        "datasets": {
+          "D": 30.0,
+          "numEpisodes": 5000.0,
+          "popSize": 100.0,
+          "maxIter": 1000.0,
+          "totalTime": 20363.180847708332,
+          "totalCpuTime": 57293.89
+        },
+        "fitnessHistoryEntries": 5000,
+        "funcAssignmentEntries": 5000,
+        "trainNamesEntries": 45,
+        "fullPasses": 111,
+        "extraEpisodeFunctions": [
+          "Quintic",
+          "Trid",
+          "Schwefel1",
+          "Mishra1",
+          "Pinter2"
+        ],
+        "acceptedPaper1CpuHours": 15.92
+      },
+      "trainer": "paper3/production_v2_20261111/frozen_source/scripts/pretrain_rlampso.m:103–161",
+      "trainerSHA256": "62286827a6bf68086ab3486ec4775f5d855ed6bbd1ac06aedb9f8162c7ad4827",
+      "checkpointRule": "Periodic saves overwrite the same filename. The trainer writes final weights after the last episode and saves the companion log. Held-out evaluation reads the fixed named files.",
+      "metadata": {
+        "trainedAgent": {
+          "stateSize": 15,
+          "actionSize": 20,
+          "numSubgroups": 5,
+          "trainStep": 1176624,
+          "useDLToolbox": 1
+        }
+      },
+      "reward": "DDPG reward +1 for an iteration with a global-best synthetic objective decrease >1e-6, and -1 otherwise.",
+      "normalization": "Iteration progress and stagnation normalized by iteration budget, and mean sample standard deviation of raw particle coordinates. Each scalar x is encoded as sin(2^k*x), k=0..4. Raw spread is not divided by map width.",
+      "adapter": "The common UAV score drives PSO. Twenty clipped actions control five interleaved groups with one coefficient triplet each. Gaussian exploration and learning are disabled.",
+      "sources": [
+        "paper3/production_v2_20261111/frozen_source/algorithms/rlampso/initializeAgentAuto.m:24–25",
+        "paper3/production_v2_20261111/frozen_source/algorithms/rlampso/initializeDLToolboxDDPG.m:46–60",
+        "paper3/production_v2_20261111/frozen_source/algorithms/rlampso/runRLAMPSOonBenchmark.m:136–164",
+        "paper3/production_v2_20261111/frozen_source/algorithms/rlampso/calculatePaperExactState.m:6–26",
+        "paper3/production_v2_20261111/frozen_source/algorithms/rlampso/getPaperExactAction.m:13–37",
+        "paper3/production_v2_20261111/frozen_source/algorithms/rlampso/convertActionToParameters.m:16–29",
+        "paper3/production_v2_20261111/frozen_source/paper3/production_v2_20261111/runProductionMethodV2.m:31–39"
+      ]
+    },
+    "GLEET": {
+      "checkpoint": "paper3/production_v2_20261111/frozen_source/paper3/external_v2_20261111/vendor/GLEET/outputs/func1_10.pt",
+      "sha256": "35f758a0e01143af3d4d09a0a6d6a7d0ae242c332714efd1b3ce4da6ed1b3c72",
+      "bytes": 122646,
+      "upstreamCommit": "e7159273d4dc7ea78ef3ae3a701069cfd4d61191",
+      "upstream": "https://github.com/MetaEvo/GLEET/tree/e7159273d4dc7ea78ef3ae3a701069cfd4d61191",
+      "checkpointFieldsObserved": [
+        "actor",
+        "critic",
+        "optimizer",
+        "rng_state",
+        "cuda_rng_state"
+      ],
+      "trainingEvidence": "The README uses this file in a 10D CEC2021 F1 (Bent Cigar) DMSPSO rollout. The separate GPSO training example does not identify the run that produced the file. The paper describes T-step PPO and incumbent improvement normalized by initial best fitness. The file does not establish its training benchmark, backbone, reward settings, epoch or overlap with Paper 3 maps.",
+      "checkpointRule": "Use the supplied example checkpoint by fixed name and hash, strict actor loading and no gradient updates. No Paper 3 checkpoint selection or fine-tuning in the adapter.",
+      "normalization": "Concatenate nine current, nine personal-best and nine global-best features per particle. Fitness uses initial best score; budget and stagnation use run lengths; distances use the search-box diagonal; angles use cosine. Native layer mode standardizes per instance over particle and embedding dimensions.",
+      "adapter": "Native 15D GPSO, 100 particles, periodic boundaries, velocity clamp 10, inertia decay and one clipped Normal action per particle. Bridge affinely maps [-100,100]^15 to waypoint bounds and supplies the common UAV score.",
+      "sources": [
+        "paper3/production_v2_20261111/frozen_source/paper3/external_v2_20261111/vendor/GLEET/README.md:12–37",
+        "paper3/production_v2_20261111/frozen_source/paper3/external_v2_20261111/vendor/GLEET/agent/ppo.py:121–133,261–262",
+        "paper3/production_v2_20261111/frozen_source/paper3/external_v2_20261111/vendor/GLEET/problems/gpso_np.py:62–165,205–245",
+        "paper3/production_v2_20261111/frozen_source/paper3/external_v2_20261111/vendor/GLEET/nets/graph_layers.py:74–78",
+        "paper3/production_v2_20261111/frozen_source/paper3/external_v2_20261111/gleet_bridge.py:16–57",
+        "paper3/production_v2_20261111/frozen_source/algorithms/production_v2/runGLEETProductionV2.m:24–35",
+        "paper3/external_v2_20261111/PROTOCOL.md:30–40"
+      ]
+    }
+  }
+}

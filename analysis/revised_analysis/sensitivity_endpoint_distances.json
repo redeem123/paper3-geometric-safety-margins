@@ -1,0 +1,920 @@
+[
+  {
+    "case": 401,
+    "map": 101,
+    "family": "waypoints",
+    "label": "n3",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0,
+      0,
+      10
+    ],
+    "lower": 8.469928121782884,
+    "upper": 8.469929108246424,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 401,
+    "map": 101,
+    "family": "waypoints",
+    "label": "n3",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200,
+      200,
+      12
+    ],
+    "lower": 9.277265359847739,
+    "upper": 9.27726536184774,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 402,
+    "map": 101,
+    "family": "waypoints",
+    "label": "n5",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0,
+      0,
+      10
+    ],
+    "lower": 8.469928121782884,
+    "upper": 8.469929108246424,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 402,
+    "map": 101,
+    "family": "waypoints",
+    "label": "n5",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200,
+      200,
+      12
+    ],
+    "lower": 9.277265359847739,
+    "upper": 9.27726536184774,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 403,
+    "map": 101,
+    "family": "waypoints",
+    "label": "n10",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0,
+      0,
+      10
+    ],
+    "lower": 8.469928121782884,
+    "upper": 8.469929108246424,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 403,
+    "map": 101,
+    "family": "waypoints",
+    "label": "n10",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200,
+      200,
+      12
+    ],
+    "lower": 9.277265359847739,
+    "upper": 9.27726536184774,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 404,
+    "map": 101,
+    "family": "threshold",
+    "label": "h6",
+    "required": 6,
+    "endpoint": "start",
+    "coordinates": [
+      0.0,
+      200.0,
+      21.472860372452143
+    ],
+    "lower": 15.870076368544483,
+    "upper": 15.870077309234997,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 404,
+    "map": 101,
+    "family": "threshold",
+    "label": "h6",
+    "required": 6,
+    "endpoint": "goal",
+    "coordinates": [
+      200.0,
+      0.0,
+      21.472860372452143
+    ],
+    "lower": 10.983254877713694,
+    "upper": 10.9832558306812,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 405,
+    "map": 101,
+    "family": "threshold",
+    "label": "h8",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0.0,
+      200.0,
+      21.472860372452143
+    ],
+    "lower": 15.870076368544483,
+    "upper": 15.870077309234997,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 405,
+    "map": 101,
+    "family": "threshold",
+    "label": "h8",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200.0,
+      0.0,
+      21.472860372452143
+    ],
+    "lower": 10.983254877713694,
+    "upper": 10.9832558306812,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 406,
+    "map": 101,
+    "family": "threshold",
+    "label": "h10",
+    "required": 10,
+    "endpoint": "start",
+    "coordinates": [
+      0.0,
+      200.0,
+      21.472860372452143
+    ],
+    "lower": 15.870076368544483,
+    "upper": 15.870077309234997,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 406,
+    "map": 101,
+    "family": "threshold",
+    "label": "h10",
+    "required": 10,
+    "endpoint": "goal",
+    "coordinates": [
+      200.0,
+      0.0,
+      21.472860372452143
+    ],
+    "lower": 10.983254877713694,
+    "upper": 10.9832558306812,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 407,
+    "map": 101,
+    "family": "missions",
+    "label": "mission1",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      183.50956739291794,
+      90.08992534772207,
+      21.37304576729822
+    ],
+    "lower": 3.237018198410672,
+    "upper": 3.237018662184289,
+    "below": true,
+    "resolved": true
+  },
+  {
+    "case": 407,
+    "map": 101,
+    "family": "missions",
+    "label": "mission1",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      104.43388786511025,
+      183.92860677806885,
+      21.526928109554806
+    ],
+    "lower": 8.716576436501295,
+    "upper": 8.716576765699168,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 408,
+    "map": 101,
+    "family": "missions",
+    "label": "mission2",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      138.40686781428337,
+      35.704885940903324,
+      21.17905749904714
+    ],
+    "lower": 3.4865462082243615,
+    "upper": 3.4865465237546123,
+    "below": true,
+    "resolved": true
+  },
+  {
+    "case": 408,
+    "map": 101,
+    "family": "missions",
+    "label": "mission2",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      137.22113504245314,
+      132.4491693379177,
+      22.259239077408655
+    ],
+    "lower": 1.2512766496259105,
+    "upper": 1.2512772647181707,
+    "below": true,
+    "resolved": true
+  },
+  {
+    "case": 409,
+    "map": 101,
+    "family": "missions",
+    "label": "mission3",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      35.70558773434161,
+      192.24752377047483,
+      21.36630784183256
+    ],
+    "lower": 12.34435983976418,
+    "upper": 12.34436080124138,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 409,
+    "map": 101,
+    "family": "missions",
+    "label": "mission3",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      88.18668720133034,
+      125.94244718018321,
+      25.741472253306597
+    ],
+    "lower": 13.323788901397943,
+    "upper": 13.323789890134979,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 410,
+    "map": 102,
+    "family": "waypoints",
+    "label": "n3",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0,
+      0,
+      10
+    ],
+    "lower": 9.98708825198329,
+    "upper": 9.987088551647588,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 410,
+    "map": 102,
+    "family": "waypoints",
+    "label": "n3",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200,
+      200,
+      21
+    ],
+    "lower": 9.811591472343931,
+    "upper": 9.811591805091203,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 411,
+    "map": 102,
+    "family": "waypoints",
+    "label": "n5",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0,
+      0,
+      10
+    ],
+    "lower": 9.98708825198329,
+    "upper": 9.987088551647588,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 411,
+    "map": 102,
+    "family": "waypoints",
+    "label": "n5",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200,
+      200,
+      21
+    ],
+    "lower": 9.811591472343931,
+    "upper": 9.811591805091203,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 412,
+    "map": 102,
+    "family": "waypoints",
+    "label": "n10",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0,
+      0,
+      10
+    ],
+    "lower": 9.98708825198329,
+    "upper": 9.987088551647588,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 412,
+    "map": 102,
+    "family": "waypoints",
+    "label": "n10",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200,
+      200,
+      21
+    ],
+    "lower": 9.811591472343931,
+    "upper": 9.811591805091203,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 413,
+    "map": 102,
+    "family": "threshold",
+    "label": "h6",
+    "required": 6,
+    "endpoint": "start",
+    "coordinates": [
+      0.0,
+      200.0,
+      25.437400003807234
+    ],
+    "lower": 19.99971969340737,
+    "upper": 19.999720390110166,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 413,
+    "map": 102,
+    "family": "threshold",
+    "label": "h6",
+    "required": 6,
+    "endpoint": "goal",
+    "coordinates": [
+      200.0,
+      0.0,
+      25.437400003807234
+    ],
+    "lower": 17.60273691651698,
+    "upper": 17.60273721406217,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 414,
+    "map": 102,
+    "family": "threshold",
+    "label": "h8",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0.0,
+      200.0,
+      25.437400003807234
+    ],
+    "lower": 19.99971969340737,
+    "upper": 19.999720390110166,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 414,
+    "map": 102,
+    "family": "threshold",
+    "label": "h8",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200.0,
+      0.0,
+      25.437400003807234
+    ],
+    "lower": 17.60273691651698,
+    "upper": 17.60273721406217,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 415,
+    "map": 102,
+    "family": "threshold",
+    "label": "h10",
+    "required": 10,
+    "endpoint": "start",
+    "coordinates": [
+      0.0,
+      200.0,
+      25.437400003807234
+    ],
+    "lower": 19.99971969340737,
+    "upper": 19.999720390110166,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 415,
+    "map": 102,
+    "family": "threshold",
+    "label": "h10",
+    "required": 10,
+    "endpoint": "goal",
+    "coordinates": [
+      200.0,
+      0.0,
+      25.437400003807234
+    ],
+    "lower": 17.60273691651698,
+    "upper": 17.60273721406217,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 416,
+    "map": 102,
+    "family": "missions",
+    "label": "mission1",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      165.9436348315762,
+      90.15802206897837,
+      26.33687502975809
+    ],
+    "lower": 15.553588673971111,
+    "upper": 15.553589227299536,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 416,
+    "map": 102,
+    "family": "missions",
+    "label": "mission1",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      52.269280528467995,
+      90.379425397669,
+      26.095893282765967
+    ],
+    "lower": 16.54498941107146,
+    "upper": 16.544989882574466,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 417,
+    "map": 102,
+    "family": "missions",
+    "label": "mission2",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      121.02739287270981,
+      9.30007442690674,
+      29.21910655907785
+    ],
+    "lower": 19.999999999,
+    "upper": 20.000000001,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 417,
+    "map": 102,
+    "family": "missions",
+    "label": "mission2",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      26.65237342649038,
+      31.013915538449222,
+      31.186748506227072
+    ],
+    "lower": 19.925967374875565,
+    "upper": 19.925967385875566,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 418,
+    "map": 102,
+    "family": "missions",
+    "label": "mission3",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      170.0963748770909,
+      68.26077226656989,
+      24.404347487589593
+    ],
+    "lower": 15.354308075766266,
+    "upper": 15.354308916106726,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 418,
+    "map": 102,
+    "family": "missions",
+    "label": "mission3",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      51.641834683617205,
+      43.215511521957566,
+      31.588708172138336
+    ],
+    "lower": 19.999999999,
+    "upper": 20.000000001,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 419,
+    "map": 103,
+    "family": "waypoints",
+    "label": "n3",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0,
+      0,
+      10
+    ],
+    "lower": 9.389028217575083,
+    "upper": 9.389028912039983,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 419,
+    "map": 103,
+    "family": "waypoints",
+    "label": "n3",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200,
+      200,
+      10
+    ],
+    "lower": 8.907583271399565,
+    "upper": 8.907583875579107,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 420,
+    "map": 103,
+    "family": "waypoints",
+    "label": "n5",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0,
+      0,
+      10
+    ],
+    "lower": 9.389028217575083,
+    "upper": 9.389028912039983,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 420,
+    "map": 103,
+    "family": "waypoints",
+    "label": "n5",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200,
+      200,
+      10
+    ],
+    "lower": 8.907583271399565,
+    "upper": 8.907583875579107,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 421,
+    "map": 103,
+    "family": "waypoints",
+    "label": "n10",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0,
+      0,
+      10
+    ],
+    "lower": 9.389028217575083,
+    "upper": 9.389028912039983,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 421,
+    "map": 103,
+    "family": "waypoints",
+    "label": "n10",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200,
+      200,
+      10
+    ],
+    "lower": 8.907583271399565,
+    "upper": 8.907583875579107,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 422,
+    "map": 103,
+    "family": "threshold",
+    "label": "h6",
+    "required": 6,
+    "endpoint": "start",
+    "coordinates": [
+      0.0,
+      200.0,
+      20.642560194335804
+    ],
+    "lower": 19.991004152279935,
+    "upper": 19.99100455153804,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 422,
+    "map": 103,
+    "family": "threshold",
+    "label": "h6",
+    "required": 6,
+    "endpoint": "goal",
+    "coordinates": [
+      200.0,
+      0.0,
+      20.612253378254714
+    ],
+    "lower": 19.95615544687479,
+    "upper": 19.956156345756614,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 423,
+    "map": 103,
+    "family": "threshold",
+    "label": "h8",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      0.0,
+      200.0,
+      20.642560194335804
+    ],
+    "lower": 19.991004152279935,
+    "upper": 19.99100455153804,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 423,
+    "map": 103,
+    "family": "threshold",
+    "label": "h8",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      200.0,
+      0.0,
+      20.612253378254714
+    ],
+    "lower": 19.95615544687479,
+    "upper": 19.956156345756614,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 424,
+    "map": 103,
+    "family": "threshold",
+    "label": "h10",
+    "required": 10,
+    "endpoint": "start",
+    "coordinates": [
+      0.0,
+      200.0,
+      20.642560194335804
+    ],
+    "lower": 19.991004152279935,
+    "upper": 19.99100455153804,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 424,
+    "map": 103,
+    "family": "threshold",
+    "label": "h10",
+    "required": 10,
+    "endpoint": "goal",
+    "coordinates": [
+      200.0,
+      0.0,
+      20.612253378254714
+    ],
+    "lower": 19.95615544687479,
+    "upper": 19.956156345756614,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 425,
+    "map": 103,
+    "family": "missions",
+    "label": "mission1",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      78.11332755576774,
+      163.9697846855668,
+      71.76876374517346
+    ],
+    "lower": 4.954411726821587,
+    "upper": 4.95441254987856,
+    "below": true,
+    "resolved": true
+  },
+  {
+    "case": 425,
+    "map": 103,
+    "family": "missions",
+    "label": "mission1",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      192.07037417411095,
+      71.77787084887433,
+      54.85458972821463
+    ],
+    "lower": 8.412828229237737,
+    "upper": 8.412829038974337,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 426,
+    "map": 103,
+    "family": "missions",
+    "label": "mission2",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      121.16508834475914,
+      20.36037516075484,
+      66.22636467514472
+    ],
+    "lower": 13.810909837635037,
+    "upper": 13.810910791311347,
+    "below": false,
+    "resolved": true
+  },
+  {
+    "case": 426,
+    "map": 103,
+    "family": "missions",
+    "label": "mission2",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      18.683986739170166,
+      25.896172499426555,
+      89.79886396201695
+    ],
+    "lower": 7.434221521931958,
+    "upper": 7.434221897614914,
+    "below": true,
+    "resolved": true
+  },
+  {
+    "case": 427,
+    "map": 103,
+    "family": "missions",
+    "label": "mission3",
+    "required": 8,
+    "endpoint": "start",
+    "coordinates": [
+      104.44298481613944,
+      44.682215742586976,
+      108.1132161362734
+    ],
+    "lower": 6.22736761902841,
+    "upper": 6.227368595198678,
+    "below": true,
+    "resolved": true
+  },
+  {
+    "case": 427,
+    "map": 103,
+    "family": "missions",
+    "label": "mission3",
+    "required": 8,
+    "endpoint": "goal",
+    "coordinates": [
+      30.884594039395882,
+      147.55670777126068,
+      62.06391263560237
+    ],
+    "lower": 15.179875353031733,
+    "upper": 15.179876352298034,
+    "below": false,
+    "resolved": true
+  }
+]

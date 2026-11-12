@@ -1,0 +1,119 @@
+{
+  "originalPaths": 630,
+  "minimumVertical": 8.000000100824796,
+  "endpoints": [
+    {
+      "scenario": 101,
+      "endpoint": "start",
+      "lower": 8.469925195392262,
+      "upper": 8.469929208246423
+    },
+    {
+      "scenario": 101,
+      "endpoint": "goal",
+      "lower": 9.277265359847739,
+      "upper": 9.277265461847739
+    },
+    {
+      "scenario": 102,
+      "endpoint": "start",
+      "lower": 9.987083782443706,
+      "upper": 9.987088664287132
+    },
+    {
+      "scenario": 102,
+      "endpoint": "goal",
+      "lower": 9.811586775715476,
+      "upper": 9.811591910936226
+    },
+    {
+      "scenario": 103,
+      "endpoint": "start",
+      "lower": 9.389026167180388,
+      "upper": 9.389029012039982
+    },
+    {
+      "scenario": 103,
+      "endpoint": "goal",
+      "lower": 8.907574373706419,
+      "upper": 8.907583975579106
+    }
+  ],
+  "reversal": {
+    "rate0": [
+      0.024444444444444446,
+      0.06833333333333333,
+      0.11444444444444445,
+      0.28555555555555556,
+      0.47
+    ],
+    "rate1": [
+      0.0,
+      0.0044444444444444444,
+      0.034444444444444444,
+      0.11888888888888889,
+      0.3933333333333333
+    ],
+    "rate5": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.12111111111111111
+    ],
+    "rate10": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.043333333333333335
+    ]
+  },
+  "maps": [
+    {
+      "scenario": 101,
+      "medianVerticalSpatialRatio": [
+        10.268552282317351,
+        10.274568691546882
+      ],
+      "trimMinimumMedians": {
+        "1": 9.17614034050121,
+        "5": 12.364335018110634,
+        "10": 13.159744170630912
+      },
+      "slopeRatioSpearman": 0.35703057021042606,
+      "searchMedianSeconds": 229.34536720833333,
+      "assessmentMedianSeconds": 0.37241383304353803
+    },
+    {
+      "scenario": 102,
+      "medianVerticalSpatialRatio": [
+        1.0000725487967543,
+        1.0000996622077347
+      ],
+      "trimMinimumMedians": {
+        "1": 10.609542435132894,
+        "5": 12.881248711390606,
+        "10": 13.902190085349464
+      },
+      "slopeRatioSpearman": 0.30646954344611127,
+      "searchMedianSeconds": 231.2341749375,
+      "assessmentMedianSeconds": 0.020113603910431266
+    },
+    {
+      "scenario": 103,
+      "medianVerticalSpatialRatio": [
+        1.2040841249151546,
+        1.204170590491202
+      ],
+      "trimMinimumMedians": {
+        "1": 11.0625681071039,
+        "5": 16.443603019628668,
+        "10": 18.39068053344412
+      },
+      "slopeRatioSpearman": 0.12050605933276798,
+      "searchMedianSeconds": 222.48723275,
+      "assessmentMedianSeconds": 1.082608624943532
+    }
+  ]
+}

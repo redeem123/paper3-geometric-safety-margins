@@ -1,0 +1,41 @@
+{
+  "createdUTC": "2026-11-12T06:09:14.110534+00:00",
+  "question": "Effect of adding continuous Euclidean margin8 with original route objective, terrain, endpoints and budget fixed.",
+  "methods": [
+    "PSO_Standard",
+    "LSHADE"
+  ],
+  "maps": [
+    101,
+    102,
+    103
+  ],
+  "conditions": [
+    "vertical",
+    "euclidean"
+  ],
+  "primaryRuns": 30,
+  "primaryPaths": 360,
+  "primaryBudget": 100100,
+  "smokeBudget": 800,
+  "gateBudget": 20300,
+  "pairedSeeds": "3000000+(scenario-101)*100000+10*run+methodIndex",
+  "geometryGap": 0.001,
+  "thresholdRefinementGap": 1e-07,
+  "conservativeUnresolved": true,
+  "sourceManifestSHA256": "22e5fc5a6da1a9c696a9515ab6edf6fa0fca28b125839f23236c0fe133da7a42",
+  "liveLauncherPreservedSHA256": "8c32df946fb4e7fa6b0cc63cc40c2e1594089ac81b6def64d2df12a1c3fde3bc",
+  "casesSHA256": "2fd25df3796838451b4f42acbccd6aad3b16b1ffb5a616179666df39786e02ce",
+  "engineSourceSHA256": "42988b18537a1b429446f50b979a26ffaa2268fe239dda9d19155e45d7926c6c",
+  "engineVerificationSHA256": "0a2b21878c1cc4f4bf3bc985d3e95e4c07a7e53dc91dcfd1ca00d7a0d4f09a8c",
+  "componentVerificationSHA256": "76938cf7d06500461e79a63b4fa691a9598522e050cf0a1ed34eba773b841d3d",
+  "protocolTextSHA256": "2571782c054b0d4e8b618f23ad1b5958f2af5099470bea9eea65186a1b2b04c8",
+  "taskTimeoutSeconds": {
+    "smoke": 1800,
+    "gate": 7200,
+    "primary": 86400
+  },
+  "primaryTest": "Six seed-paired exact two-sided McNemar tests, Holm family6",
+  "secondary": "Paired median differences with10000 pair bootstrap resamples, pointwise intervals; original J defined in both conditions; missing pairs reported separately.",
+  "resourcePolicy": "Two smoke workers while endpoint study is running. Gate and360 primary routes wait for verified endpoint completion, then at most12 single-thread workers. No partial endpoint outcomes inspected."
+}

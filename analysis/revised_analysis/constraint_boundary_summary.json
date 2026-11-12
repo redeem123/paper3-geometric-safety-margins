@@ -1,0 +1,79 @@
+{
+  "verified": true,
+  "sourceSHA256": "462f27b00e7a99402be0061eca1d2fab815ab39a234c575f0b93057b73aa879c",
+  "definition": "Euclidean-arm route bounds from independent assessment; ambiguity counts are objective evaluations still straddling the threshold after refinement, not distinct candidate paths.",
+  "conditions": [
+    {
+      "scenario": 101,
+      "method": "PSO_Standard",
+      "runs": 30,
+      "upperWithin001": 28,
+      "upperWithin002": 30,
+      "maximumUpperExcess": 0.0019945921748956152,
+      "minimumLowerExcess": 1.4701709893927273e-07,
+      "ambiguousEvaluationMedian": 3.0,
+      "ambiguousEvaluationMinimum": 0,
+      "ambiguousEvaluationMaximum": 47
+    },
+    {
+      "scenario": 101,
+      "method": "LSHADE",
+      "runs": 30,
+      "upperWithin001": 30,
+      "upperWithin002": 30,
+      "maximumUpperExcess": 7.741875407418775e-08,
+      "minimumLowerExcess": 0.0,
+      "ambiguousEvaluationMedian": 13659.0,
+      "ambiguousEvaluationMinimum": 10778,
+      "ambiguousEvaluationMaximum": 17219
+    },
+    {
+      "scenario": 102,
+      "method": "PSO_Standard",
+      "runs": 30,
+      "upperWithin001": 0,
+      "upperWithin002": 0,
+      "maximumUpperExcess": 1.8115919176289292,
+      "minimumLowerExcess": 0.24177223245209767,
+      "ambiguousEvaluationMedian": 0.0,
+      "ambiguousEvaluationMinimum": 0,
+      "ambiguousEvaluationMaximum": 0
+    },
+    {
+      "scenario": 102,
+      "method": "LSHADE",
+      "runs": 30,
+      "upperWithin001": 0,
+      "upperWithin002": 0,
+      "maximumUpperExcess": 1.8115919176289292,
+      "minimumLowerExcess": 1.8115121364571714,
+      "ambiguousEvaluationMedian": 0.0,
+      "ambiguousEvaluationMinimum": 0,
+      "ambiguousEvaluationMaximum": 0
+    },
+    {
+      "scenario": 103,
+      "method": "PSO_Standard",
+      "runs": 30,
+      "upperWithin001": 21,
+      "upperWithin002": 22,
+      "maximumUpperExcess": 0.6278236360461502,
+      "minimumLowerExcess": 1.8265804868633495e-08,
+      "ambiguousEvaluationMedian": 0.5,
+      "ambiguousEvaluationMinimum": 0,
+      "ambiguousEvaluationMaximum": 437
+    },
+    {
+      "scenario": 103,
+      "method": "LSHADE",
+      "runs": 30,
+      "upperWithin001": 1,
+      "upperWithin002": 1,
+      "maximumUpperExcess": 0.6278239418944533,
+      "minimumLowerExcess": 1.687538997430238e-13,
+      "ambiguousEvaluationMedian": 0.0,
+      "ambiguousEvaluationMinimum": 0,
+      "ambiguousEvaluationMaximum": 12892
+    }
+  ]
+}

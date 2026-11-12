@@ -1,0 +1,9 @@
+{
+  "stage": "primary",
+  "verified": true,
+  "paths": 1260,
+  "feasible": 1260,
+  "budget": 100100,
+  "protocolSha256": "e5d3ce490fb56c164a214b84e9194bc9fb4f0fedaa14e9a94143dd6fcbae993e",
+  "sourceHash": "a579214e32706c71bd731a81302ad89427d968ef50ee5a0b9e3101333ba4a9d7"
+}

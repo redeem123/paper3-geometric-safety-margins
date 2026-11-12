@@ -1,0 +1,25 @@
+{
+  "models": {
+    "AFSACPSO": {
+      "frozenRelativePath": "paper3/darlan_paper1_20261110/models/AFSACPSO/pretrained_sac_attractor.mat",
+      "sha256": "56c179cb1b90d737f18579c396636bf453102f5a9a35bb96dfa3ffb407246937",
+      "bytes": 301839
+    },
+    "SAC-SAPSO": {
+      "frozenRelativePath": "paper3/darlan_paper1_20261110/models/AFSACPSO/pretrained_sacpso_paper.mat",
+      "sha256": "9bcee8d12f65f05b1220d5794ec79f9e38d01cc85160d19c31028258dcebc562",
+      "bytes": 372274
+    },
+    "RLAM-PSO": {
+      "frozenRelativePath": "paper3/darlan_paper1_20261110/models/rlampso/pretrained_rlampso.mat",
+      "sha256": "51e02a5d9096a33136f4f65afee155a10de3130597d0b43c316063c820cf4920",
+      "bytes": 224720148
+    },
+    "GLEET": {
+      "frozenRelativePath": "paper3/external_v2_20261111/vendor/GLEET/outputs/func1_10.pt",
+      "sha256": "35f758a0e01143af3d4d09a0a6d6a7d0ae242c332714efd1b3ce4da6ed1b3c72",
+      "bytes": 122646
+    }
+  },
+  "scope": "This analysis archive records model identities. All four actual model binaries are supplied in the separate optimizer replay archive."
+}

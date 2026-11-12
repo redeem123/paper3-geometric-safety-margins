@@ -1,0 +1,23 @@
+{
+  "createdUTC": "2026-11-12T04:11:18.261564+00:00",
+  "scope": "Exploratory continuous 3D-distance assessment on all630 unchanged returned routes. No new optimizer campaign, no objective change, no change to primary feasibility or tests.",
+  "surface": "The original complete bilinear height-field graph over the modeled map domain, not the stepped display, not reconstructed architectural solids.",
+  "distance": "Minimum Euclidean distance between the six complete route segments and the continuous bilinear surface.",
+  "bounds": "Spatial hierarchy with exact piecewise-quadratic segment/AABB lower bounds. Bilinear leaf subdivision adds triangle-mesh lower bounds reduced by |bilinear cross coefficient|/4. Surface points projected onto the route give upper bounds.",
+  "primaryAbsoluteGap": 0.001,
+  "threshold": 8,
+  "nearThresholdGap": 1e-05,
+  "maximumPopsPerPass": 300000,
+  "classification": "Upper<8: below8; lower>=8: atLeast8; otherwise refine then retain unresolved if the interval straddles8. Original vertical feasibility is a separate quantity.",
+  "numericalAllowance": "AABB lower distances subtract1e-9. Triangle bounds subtract1e-8. Upper witness distances add1e-9. Floating-point geometrical bounds, not a formal interval-arithmetic proof.",
+  "witnesses": "All returned surface points are re-evaluated on original bilinear cells; route points are checked by independent segment projection.",
+  "preservation": "All630 raw file hashes and originalCSV source identity checked. Failures/unconverged cases retained, not removed.",
+  "workers": 4,
+  "sources": {
+    "paper3/production_v2_20261111/manuscript_pictorial_figure2_20261112/verified_runs.csv": "795c81b5bbe85311f11b3a87a724ef5c2079803cf61d7b443a226c325ed1225e",
+    "paper3/scientific_review_20261112/continuous_distance/test_distance_bounds.py": "a1dce5943ff2e97e148b6090a52e8f384efef272798a73c489c1bea2098d8bcd",
+    "paper3/scientific_review_20261112/continuous_distance/triangle_bound.py": "29deafee391206e9114dc7f5f7b2d73123504709f4c7320b2cc0d8c20be85c91",
+    "paper3/scientific_review_20261112/continuous_distance/distance_bounds.py": "c41377be681e4528e2cd5cd512153dcdd705338dab67487f86e3abbb3626e31e",
+    "paper3/scientific_review_20261112/continuous_distance/run_assessment.py": "a203298aafb039910bf4aec881c2549025c7ff200aea4baf34598c16fab2385c"
+  }
+}

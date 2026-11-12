@@ -1,0 +1,532 @@
+{
+  "name": "reviewer-sensitivity-20261112",
+  "cases": [
+    {
+      "id": 401,
+      "map": 101,
+      "family": "waypoints",
+      "n": 3,
+      "h": 8,
+      "label": "n3",
+      "input": "inputs/case401.mat",
+      "start": [
+        0,
+        0,
+        10
+      ],
+      "goal": [
+        200,
+        200,
+        12
+      ]
+    },
+    {
+      "id": 402,
+      "map": 101,
+      "family": "waypoints",
+      "n": 5,
+      "h": 8,
+      "label": "n5",
+      "input": "inputs/case402.mat",
+      "start": [
+        0,
+        0,
+        10
+      ],
+      "goal": [
+        200,
+        200,
+        12
+      ]
+    },
+    {
+      "id": 403,
+      "map": 101,
+      "family": "waypoints",
+      "n": 10,
+      "h": 8,
+      "label": "n10",
+      "input": "inputs/case403.mat",
+      "start": [
+        0,
+        0,
+        10
+      ],
+      "goal": [
+        200,
+        200,
+        12
+      ]
+    },
+    {
+      "id": 404,
+      "map": 101,
+      "family": "threshold",
+      "n": 5,
+      "h": 6,
+      "label": "h6",
+      "input": "inputs/case404.mat",
+      "start": [
+        0.0,
+        200.0,
+        21.472860372452143
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        21.472860372452143
+      ]
+    },
+    {
+      "id": 405,
+      "map": 101,
+      "family": "threshold",
+      "n": 5,
+      "h": 8,
+      "label": "h8",
+      "input": "inputs/case405.mat",
+      "start": [
+        0.0,
+        200.0,
+        21.472860372452143
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        21.472860372452143
+      ]
+    },
+    {
+      "id": 406,
+      "map": 101,
+      "family": "threshold",
+      "n": 5,
+      "h": 10,
+      "label": "h10",
+      "input": "inputs/case406.mat",
+      "start": [
+        0.0,
+        200.0,
+        21.472860372452143
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        21.472860372452143
+      ]
+    },
+    {
+      "id": 407,
+      "map": 101,
+      "family": "missions",
+      "n": 5,
+      "h": 8,
+      "label": "mission1",
+      "input": "inputs/case407.mat",
+      "start": [
+        183.50956739291794,
+        90.08992534772207,
+        21.37304576729822
+      ],
+      "goal": [
+        104.43388786511025,
+        183.92860677806885,
+        21.526928109554806
+      ]
+    },
+    {
+      "id": 408,
+      "map": 101,
+      "family": "missions",
+      "n": 5,
+      "h": 8,
+      "label": "mission2",
+      "input": "inputs/case408.mat",
+      "start": [
+        138.40686781428337,
+        35.704885940903324,
+        21.17905749904714
+      ],
+      "goal": [
+        137.22113504245314,
+        132.4491693379177,
+        22.259239077408655
+      ]
+    },
+    {
+      "id": 409,
+      "map": 101,
+      "family": "missions",
+      "n": 5,
+      "h": 8,
+      "label": "mission3",
+      "input": "inputs/case409.mat",
+      "start": [
+        35.70558773434161,
+        192.24752377047483,
+        21.36630784183256
+      ],
+      "goal": [
+        88.18668720133034,
+        125.94244718018321,
+        25.741472253306597
+      ]
+    },
+    {
+      "id": 410,
+      "map": 102,
+      "family": "waypoints",
+      "n": 3,
+      "h": 8,
+      "label": "n3",
+      "input": "inputs/case410.mat",
+      "start": [
+        0,
+        0,
+        10
+      ],
+      "goal": [
+        200,
+        200,
+        21
+      ]
+    },
+    {
+      "id": 411,
+      "map": 102,
+      "family": "waypoints",
+      "n": 5,
+      "h": 8,
+      "label": "n5",
+      "input": "inputs/case411.mat",
+      "start": [
+        0,
+        0,
+        10
+      ],
+      "goal": [
+        200,
+        200,
+        21
+      ]
+    },
+    {
+      "id": 412,
+      "map": 102,
+      "family": "waypoints",
+      "n": 10,
+      "h": 8,
+      "label": "n10",
+      "input": "inputs/case412.mat",
+      "start": [
+        0,
+        0,
+        10
+      ],
+      "goal": [
+        200,
+        200,
+        21
+      ]
+    },
+    {
+      "id": 413,
+      "map": 102,
+      "family": "threshold",
+      "n": 5,
+      "h": 6,
+      "label": "h6",
+      "input": "inputs/case413.mat",
+      "start": [
+        0.0,
+        200.0,
+        25.437400003807234
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        25.437400003807234
+      ]
+    },
+    {
+      "id": 414,
+      "map": 102,
+      "family": "threshold",
+      "n": 5,
+      "h": 8,
+      "label": "h8",
+      "input": "inputs/case414.mat",
+      "start": [
+        0.0,
+        200.0,
+        25.437400003807234
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        25.437400003807234
+      ]
+    },
+    {
+      "id": 415,
+      "map": 102,
+      "family": "threshold",
+      "n": 5,
+      "h": 10,
+      "label": "h10",
+      "input": "inputs/case415.mat",
+      "start": [
+        0.0,
+        200.0,
+        25.437400003807234
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        25.437400003807234
+      ]
+    },
+    {
+      "id": 416,
+      "map": 102,
+      "family": "missions",
+      "n": 5,
+      "h": 8,
+      "label": "mission1",
+      "input": "inputs/case416.mat",
+      "start": [
+        165.9436348315762,
+        90.15802206897837,
+        26.33687502975809
+      ],
+      "goal": [
+        52.269280528467995,
+        90.379425397669,
+        26.095893282765967
+      ]
+    },
+    {
+      "id": 417,
+      "map": 102,
+      "family": "missions",
+      "n": 5,
+      "h": 8,
+      "label": "mission2",
+      "input": "inputs/case417.mat",
+      "start": [
+        121.02739287270981,
+        9.30007442690674,
+        29.21910655907785
+      ],
+      "goal": [
+        26.65237342649038,
+        31.013915538449222,
+        31.186748506227072
+      ]
+    },
+    {
+      "id": 418,
+      "map": 102,
+      "family": "missions",
+      "n": 5,
+      "h": 8,
+      "label": "mission3",
+      "input": "inputs/case418.mat",
+      "start": [
+        170.0963748770909,
+        68.26077226656989,
+        24.404347487589593
+      ],
+      "goal": [
+        51.641834683617205,
+        43.215511521957566,
+        31.588708172138336
+      ]
+    },
+    {
+      "id": 419,
+      "map": 103,
+      "family": "waypoints",
+      "n": 3,
+      "h": 8,
+      "label": "n3",
+      "input": "inputs/case419.mat",
+      "start": [
+        0,
+        0,
+        10
+      ],
+      "goal": [
+        200,
+        200,
+        10
+      ]
+    },
+    {
+      "id": 420,
+      "map": 103,
+      "family": "waypoints",
+      "n": 5,
+      "h": 8,
+      "label": "n5",
+      "input": "inputs/case420.mat",
+      "start": [
+        0,
+        0,
+        10
+      ],
+      "goal": [
+        200,
+        200,
+        10
+      ]
+    },
+    {
+      "id": 421,
+      "map": 103,
+      "family": "waypoints",
+      "n": 10,
+      "h": 8,
+      "label": "n10",
+      "input": "inputs/case421.mat",
+      "start": [
+        0,
+        0,
+        10
+      ],
+      "goal": [
+        200,
+        200,
+        10
+      ]
+    },
+    {
+      "id": 422,
+      "map": 103,
+      "family": "threshold",
+      "n": 5,
+      "h": 6,
+      "label": "h6",
+      "input": "inputs/case422.mat",
+      "start": [
+        0.0,
+        200.0,
+        20.642560194335804
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        20.612253378254714
+      ]
+    },
+    {
+      "id": 423,
+      "map": 103,
+      "family": "threshold",
+      "n": 5,
+      "h": 8,
+      "label": "h8",
+      "input": "inputs/case423.mat",
+      "start": [
+        0.0,
+        200.0,
+        20.642560194335804
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        20.612253378254714
+      ]
+    },
+    {
+      "id": 424,
+      "map": 103,
+      "family": "threshold",
+      "n": 5,
+      "h": 10,
+      "label": "h10",
+      "input": "inputs/case424.mat",
+      "start": [
+        0.0,
+        200.0,
+        20.642560194335804
+      ],
+      "goal": [
+        200.0,
+        0.0,
+        20.612253378254714
+      ]
+    },
+    {
+      "id": 425,
+      "map": 103,
+      "family": "missions",
+      "n": 5,
+      "h": 8,
+      "label": "mission1",
+      "input": "inputs/case425.mat",
+      "start": [
+        78.11332755576774,
+        163.9697846855668,
+        71.76876374517346
+      ],
+      "goal": [
+        192.07037417411095,
+        71.77787084887433,
+        54.85458972821463
+      ]
+    },
+    {
+      "id": 426,
+      "map": 103,
+      "family": "missions",
+      "n": 5,
+      "h": 8,
+      "label": "mission2",
+      "input": "inputs/case426.mat",
+      "start": [
+        121.16508834475914,
+        20.36037516075484,
+        66.22636467514472
+      ],
+      "goal": [
+        18.683986739170166,
+        25.896172499426555,
+        89.79886396201695
+      ]
+    },
+    {
+      "id": 427,
+      "map": 103,
+      "family": "missions",
+      "n": 5,
+      "h": 8,
+      "label": "mission3",
+      "input": "inputs/case427.mat",
+      "start": [
+        104.44298481613944,
+        44.682215742586976,
+        108.1132161362734
+      ],
+      "goal": [
+        30.884594039395882,
+        147.55670777126068,
+        62.06391263560237
+      ]
+    }
+  ],
+  "methods": [
+    "PSO_Standard",
+    "LSHADE"
+  ],
+  "runs": 10,
+  "budget": 100100,
+  "smokeBudget": 800,
+  "primaryPaths": 540,
+  "seed": "5000000 + (caseId-401)*10000 + run*10 + methodIndex; methodIndex1/2",
+  "constraint": "continuous vertical h>=required",
+  "objective": "Original four terms, exposure reference8 retained across thresholds",
+  "sourceParent": "/Volumes/CuTaData/.storage-admin/MacResearchMigration_20261004/data/Desktop/Research/vietanhpaper-2/paper3/clearance_intervention_20261112/source",
+  "status": "defined before sensitivity optimization",
+  "interpretation": "Exploratory controlled follow-up,10 optimization seeds per fixed task; no random population of terrains"
+}
