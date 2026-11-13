@@ -1,0 +1,199 @@
+{
+  "status": "approved_scoped_licenses",
+  "rightsConfirmationAndApprovalDate": "2026-11-13",
+  "sourceRelease": "v1.0.0",
+  "sourceReleaseCommit": "f7132c2f3b18fe5f023603f04f72a7060dabcdec",
+  "scope": "The licenses apply to the file versions identified below by repository path and SHA-256. The listed software and numerical outputs have separate licenses; this is not a blanket license for the repository or release.",
+  "softwareLicense": {
+    "spdx": "MIT",
+    "licenseText": "LICENSE-MIT.txt",
+    "canonicalTemplate": "https://spdx.org/licenses/MIT.txt"
+  },
+  "software": [
+    {
+      "path": "analysis/clearance_profiles.py",
+      "sha256": "fa77831332eb93c14467853c090b49bb56d4fd8586171b9e5135102f806a781d"
+    },
+    {
+      "path": "analysis/distance_bounds.py",
+      "sha256": "c41377be681e4528e2cd5cd512153dcdd705338dab67487f86e3abbb3626e31e"
+    },
+    {
+      "path": "analysis/engine/bilinear_distance.cpp",
+      "sha256": "42988b18537a1b429446f50b979a26ffaa2268fe239dda9d19155e45d7926c6c"
+    },
+    {
+      "path": "analysis/native_geometry.py",
+      "sha256": "67ab369b8f94f4a94a27c4fd95996b6c4cca421c5114d5d653c93ac568f7cb4d"
+    },
+    {
+      "path": "analysis/paired_statistics.py",
+      "sha256": "7db13b1238a475d2ae1579c51510874f0b61a67e0d215922238260dbce0723a9"
+    },
+    {
+      "path": "analysis/portable_routes.py",
+      "sha256": "95568e4a4800d9d8efc15c31cfc442e35adfb392d8c86ef51f3d02c6c6466695"
+    },
+    {
+      "path": "analysis/reanalyze_additional_routes.py",
+      "sha256": "74f05ecc67c98168958b633ce30f251f477b7b4ce9bdbbd7caad9bb1d2266257"
+    },
+    {
+      "path": "analysis/reanalyze_geometry_statistics.py",
+      "sha256": "64b763264e48539704f3173a69815dbd3f99aff624be51a0f8a69b3410ac501f"
+    },
+    {
+      "path": "analysis/reanalyze_saved_routes.py",
+      "sha256": "59c774decf245aea1bde2a323daa5d87c4a90280dccc755330ef950c3b52c1c2"
+    },
+    {
+      "path": "analysis/reanalyze_surface_controls.py",
+      "sha256": "b48dc46d561076fe4be085ab4586781f87c06fd75867834c0287dd133926f8c1"
+    },
+    {
+      "path": "analysis/secondary_effect_sizes.py",
+      "sha256": "75fcfbd0d18aea608c91b9f499e4acdf5eb4ac3df1ccda1143f8057a97e07fda"
+    },
+    {
+      "path": "analysis/test_distance_bounds.py",
+      "sha256": "81cc5ed821884e9daef0522809e491972761ae8bbbf41af66667fb90c266c320"
+    },
+    {
+      "path": "analysis/triangle_bound.py",
+      "sha256": "29deafee391206e9114dc7f5f7b2d73123504709f4c7320b2cc0d8c20be85c91"
+    }
+  ],
+  "numericalOutputsLicense": {
+    "spdx": "CC-BY-4.0",
+    "licenseText": "LICENSE-CC-BY-4.0.txt",
+    "legalCode": "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+  },
+  "numericalOutputs": [
+    {
+      "path": "analysis/additional/constraint/original_assessment/paired_summary.csv",
+      "sha256": "d8b915000d8fcab3d3949492ea109f4465e057fd416b7cf0db200449bc86f07e"
+    },
+    {
+      "path": "analysis/additional/constraint/runs.csv",
+      "sha256": "b216dd584bae9eb13ea4789c4195f26e46e11905b4c67424f4e580b8f46eb66e"
+    },
+    {
+      "path": "analysis/additional/constraint/vertices.csv",
+      "sha256": "bf1b44ebeabb5b5d29acb6dab5e0d62a9f08e988d296d500a30324ad2f4949eb"
+    },
+    {
+      "path": "analysis/additional/endpoint/original_assessment/endpoint_binding_tests.csv",
+      "sha256": "659590be05b4ce869aa0c7a6ce7972c276bbb72784224b77e387bc1d90f65e48"
+    },
+    {
+      "path": "analysis/additional/endpoint/original_assessment/summary.csv",
+      "sha256": "9eb732b5d014c1e95f942b6f466b152184b81deef5c2010e90fc86f1a092d6d7"
+    },
+    {
+      "path": "analysis/additional/endpoint/runs.csv",
+      "sha256": "790e1f4f0e11ae7811990d5cf763878cc58fc03cea80fa8bf5127cbc90323678"
+    },
+    {
+      "path": "analysis/additional/endpoint/vertices.csv",
+      "sha256": "3e5e163a9090e21951caa08244508e2174b1fbf11a3cc961e2413a0dcb7ebb2f"
+    },
+    {
+      "path": "analysis/additional/sensitivity/runs.csv",
+      "sha256": "c70a5258335a7e0f7aba2d0165ec2322505cd348f8f06c57b03489cdee75ac6c"
+    },
+    {
+      "path": "analysis/additional/sensitivity/vertices.csv",
+      "sha256": "e3cd028f9b231359c19ba38818806853525f73854f03364edd16310a6946141e"
+    },
+    {
+      "path": "analysis/comparisons.csv",
+      "sha256": "ed44a31501dee47520c73435401fc8f669ea9903c7499739a957eead3fa3518d"
+    },
+    {
+      "path": "analysis/data/returned_routes.csv",
+      "sha256": "ecbe6a9265a962a8afdd918145fcd678a0bf7bc49dc93b4199baf2c6159b2e1c"
+    },
+    {
+      "path": "analysis/euclidean/method_summary.csv",
+      "sha256": "97e6c50e821cd45706fa49001118ef7fbddf7d5138264c51733e29f9aa3d30dd"
+    },
+    {
+      "path": "analysis/euclidean/route_distances.csv",
+      "sha256": "9eb20a77649a1d9161719daea933fd4ca4f202b4af2035e81063863a8ebd0712"
+    },
+    {
+      "path": "analysis/profiles/mean_cdf_curves.csv",
+      "sha256": "e09303394820b9faa8b9b2ac4c1f9e198e918967922d42eb5948d09e3327211e"
+    },
+    {
+      "path": "analysis/profiles/profiles_runs.csv",
+      "sha256": "ea3677cf5e3442d2578bef973027250d731beb2a9bf6b12c03f1642392b31ab1"
+    },
+    {
+      "path": "analysis/profiles/profiles_summary.csv",
+      "sha256": "7aab97998f7a03b794b803a5f479b890fc012fb546428b4aa095250ed582f407"
+    },
+    {
+      "path": "analysis/profiles/reversal_contrasts.csv",
+      "sha256": "7e49f66c12c00b6e4adb217bf9d8190ee3aa74cd74fc8d9da874b34664735e73"
+    },
+    {
+      "path": "analysis/revised_analysis/all_pair_tests.csv",
+      "sha256": "3805654d84ce574425762df4584198b227b7d8765df4e5a4182d08053aa9cd66"
+    },
+    {
+      "path": "analysis/revised_analysis/cdf_intervals.csv",
+      "sha256": "c79c6047c0a1f3b25da9c389c92b8b1d519bfb3a04631c71f10d89b5c285cd4e"
+    },
+    {
+      "path": "analysis/revised_analysis/endpoint_distances.csv",
+      "sha256": "dde1c58d1cb7bb5346c2def73e2f533eeea320bbd3a72dcba3286161b317488c"
+    },
+    {
+      "path": "analysis/revised_analysis/geometry_profiles.csv",
+      "sha256": "35b5301097d98a6310213c2022e115e54ac07429fd483e108119ee52a1bc06cc"
+    },
+    {
+      "path": "analysis/revised_analysis/rescore_weights.csv",
+      "sha256": "af5057e96c00de76324189a3125209bd0e9047c5ba59c7076eef3bbbcea4f3a6"
+    },
+    {
+      "path": "analysis/revised_analysis/reversal_examples.csv",
+      "sha256": "e788dcf74075a8ca915c0058b44fd04f6f227b8d3f548dfe60a15804a54be8f2"
+    },
+    {
+      "path": "analysis/revised_analysis/reversal_materiality.csv",
+      "sha256": "127707ce3e5e2c6a065c53de70d7cf597c8133d5ebc92e2c41b165350240c22f"
+    },
+    {
+      "path": "analysis/revised_analysis/sensitivity_summary.csv",
+      "sha256": "90dce2f6d6c4ab44fcf69ae97288a1b0023033d14b10d7f3376ff5be058d7832"
+    },
+    {
+      "path": "analysis/revised_analysis/surface_alternatives.csv",
+      "sha256": "0a402929b9ae68a9546712cb879118ce23ce3db5f735a5bb86eb65509385c1a5"
+    },
+    {
+      "path": "analysis/secondary_effect_sizes.csv",
+      "sha256": "6ac02767d5a87ff201d783f26d248dd04b75a5797f48d03e8e042652f37c316a"
+    },
+    {
+      "path": "analysis/summary.csv",
+      "sha256": "5d8c059994e2908e4ec3531bd0b91da4708a9659361f37830b56a573eab35cf1"
+    },
+    {
+      "path": "analysis/verified_runs.csv",
+      "sha256": "84286b7b43b665f106f96145c27d8474d2cc773ea517dba688793630aaa15b0c"
+    }
+  ],
+  "excluded": [
+    "analysis/data/maps/** and all source/derived terrain rasters",
+    "all inherited algorithm implementations and pretrained models in replay archives",
+    "all checkpoints",
+    "manuscript and figures",
+    "uncompleted B30 campaign outputs",
+    "all other unlisted files"
+  ],
+  "originatingProposalSHA256": "7d7c39ca4ad914930def9e435288ff1386273f2cdbd0a4a78e322c669e98d1e6",
+  "attribution": "Trung-Kien Hoang, Thi Thanh-Hoa Lai and Viet-Anh Ngo, Geometric safety margins in terrain-based UAV path planning. Source: https://github.com/redeem123/paper3-geometric-safety-margins/releases/tag/v1.0.0"
+}

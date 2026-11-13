@@ -1,0 +1,7 @@
+# Licenses for specified files
+
+The [approved manifest](approved_scoped_license_manifest.json) identifies the covered file versions by repository path and SHA-256. Its 13 analysis source files are licensed under the [MIT License](LICENSE-MIT.txt); its 29 numerical CSV files are licensed under [Creative Commons Attribution 4.0 International](LICENSE-CC-BY-4.0.txt). The license texts state the applicable terms. The versions in the manifest match the v1.0.0 release; licensing the listed files does not change that tag or its assets.
+
+The creators named for attribution are Trung-Kien Hoang, Thi Thanh-Hoa Lai and Viet-Anh Ngo. The source is *Geometric safety margins in terrain-based UAV path planning*, [release v1.0.0](https://github.com/redeem123/paper3-geometric-safety-margins/releases/tag/v1.0.0). The MIT license text contains the copyright notice for the licensed analysis files. Copyright (c) 2026 the copyright holders of the licensed numerical outputs.
+
+These licenses do not apply by this notice to maps or other terrain rasters, inherited optimizers or pretrained models, checkpoints, the manuscript or figures, B30 outputs, or any other unlisted file. The existing release and repository contain mixed material; there is no blanket license for all of their contents. In particular, GitHub-generated source archives can contain mixed material and are not the separately scoped component archives.

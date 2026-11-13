@@ -62,6 +62,13 @@ and its supplied `func1_10.pt` model. L-SHADE derives from Ryoji Tanabe's
 Upstream authorship and notices remain with the archived code. This repository
 does not impose a new blanket license on inherited components.
 
+## Scoped licenses
+
+The [file-level license manifest and notices](licensing/README.md) apply MIT to
+13 identified analysis source files and CC BY 4.0 to 29 identified numerical
+CSV files. Other material remains outside this scope; the mixed-content
+v1.0.0 release and its assets are unchanged.
+
 ## Interpretation
 
 The original 350/630 spatial-below-margin result is conditional on the original
